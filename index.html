@@ -1,0 +1,1132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>High Contrast</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+        <link rel="stylesheet" href="css/theme/modifications.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/qtcreator_dark.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+<!-- Title -->
+                <section>
+                    <h1>TITLE</h1>
+
+                    <aside class="notes">
+		              Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+	                </aside>
+                </section>
+
+<!-- The ideal -->
+                <section>
+                    <a href="https://twitter.com/HugoGiraudel/status/877123359418576896">
+                        <img src="lib/img/tweet-hugo.png" />
+                    </a>
+                </section>
+
+<!-- Head's up -->
+                <section>
+                    <h3>Head's up</h3>
+                    <ul>
+                        <li>High contrast</li>
+                        <li>Video</li>
+                        <li>Mild strobing</li>
+                    </ul>
+                </section>
+
+<!-- The ideal -->
+                <section>
+                    <h2>The ideal</h2>
+                    <img style="height: 20vh; margin-top: 0.25em;" src="lib/img/rainbow.svg" />
+                </section>
+
+<!-- WCAG AA -->
+                <section>
+                    <h2 class="biggo">WCAG AA</h2>
+                </section>
+
+<!-- Grey and gray -->
+                <section>
+                    <h2>Grey <span class="light shrink-20">(eh?)</span> and gray <span class="light shrink-20">(ah!)</span></h2>
+                    <img style="margin-top: 1.5em;" src="lib/img/grays.svg" />
+                </section>
+
+<!-- Irlen Syndrome -->
+                <section>
+                    <h2>Irlen Syndrome</h2>
+                    <p>Scotopic sensitivity</p>
+                </section>
+
+<!-- You don't know what you don't know -->
+                <section>
+                    <p>You don't know what you don't know</p>
+                    <h2>Keep your content open and interoperable</h2>
+                </section>
+
+<!-- High Contrast Mode -->
+                <section data-background-color="#000000">
+                    <h2 style="color: #FFFF00;">High Contrast Mode</h2>
+                    <p style="color: #807BFF;">A thing that exists</p>
+                </section>
+
+<!-- Who it affects -->
+                <section>
+                    <h2>Who it affects:</h2>
+                </section>
+
+<!-- Everyone -->
+                <section>
+                    <img style="height: 35vh; margin-bottom: -1em;" src="lib/img/point.svg" />
+                    <h2 class="biggo">Everyone</h2>
+                </section>
+
+<!-- People experiencing biological -->
+                <section>
+                    <h2>People experiencing a biological condition</h2>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Can be permanent or temporary</li>
+                        </ul>
+                    </aside>
+                </section>
+
+<!-- People experiencing environmental -->
+                <section>
+                    <h2>People experiencing an environmental condition</h2>
+                </section>
+
+<!-- Tell me the numbers -->
+                <section>
+                    <h2>Tell me the numbers</h2>
+                </section>
+
+<!-- Nah -->
+                <section>
+                    <h2 class="biggo">Nah</h2>
+                </section>
+
+<!-- Garden tweet -->
+                <section>
+                    <a href="https://twitter.com/ShaunFinglas/status/868814968753463296">
+                        <img src="lib/img/tweet-garden.png" />
+                    </a>
+                </section>
+
+<!-- WCAG -->
+                <section>
+                    <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation">
+                        <h1>1.4.8</h1>
+                        <h3>Visual Presentation</h3>
+                        <p>&ldquo;Foreground and background colors<br />can be selected by the user.&rdquo;</p>
+                    </a>
+                </section>
+
+<!-- Where it works -->
+                <section>
+                    <h2>Where it works</h2>
+                </section>
+
+<!-- Windows 7 -->
+                <section>
+                    <h2>Windows 7+</h2>
+                </section>
+
+<!-- IE10+ -->
+                <section>
+                    <h2 style="font-size: 2.5em;">Internet Explorer 10+</h2>
+                    <h2>Microsoft Edge</h2>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Media quey trick to target IE10+: https://philipnewcomer.net/2014/04/target-internet-explorer-10-11-css/</li>
+                        </ul>
+                    </aside>
+                </section>
+
+<!-- Chrome -->
+                <section>
+                    <img src="lib/img/chrome-high-contrast-mode.png" />
+                </section>
+
+<!-- How it works -->
+                <section>
+                    <h2>How it works</h2>
+                </section>
+
+<!-- Semantic HTML -->
+                <section>
+                    <h2 class="biggo">Semantic<br />
+                        HTML</h2>
+                </section>
+
+<!-- Different themes -->
+                <section>
+                    <h2>Different themes</h2>
+                </section>
+
+<!-- Mode screenshots -->
+                <section>
+                    <img src="lib/img/contrast-modes.png" />
+                </section>
+
+<!-- Example 1 -->
+                <section
+                    data-background-image="lib/img/high-contrast-mode-1.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Example 2 -->
+                <section
+                    data-background-image="lib/img/high-contrast-mode-2.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Example 3 -->
+                <section
+                    data-background-image="lib/img/high-contrast-mode-black.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Example 4 -->
+                <section
+                    data-background-image="lib/img/high-contrast-mode-white.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Custom themes -->
+                <section>
+                    <h2>Custom themes</h2>
+                </section>
+
+<!-- Hotdog -->
+                <section
+                    data-background-video="lib/img/hotdog.mov"
+                    data-background-video-loop
+                    data-background-video-muted
+                    data-background-size="contain">
+                </section>
+
+<!-- Code 1 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Targets the High Contrast Black theme: */
+                        @media (-ms-high-contrast: white-on-black) { }
+
+                        /* Targets the High Contrast White theme: */
+                        @media (-ms-high-contrast: black-on-white) { }
+
+                        /* Targets any active High Contrast theme */
+                        @media (-ms-high-contrast: active) { }
+	                </code></pre>
+
+                </section>
+
+<!-- Code 2 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        <s style="opacity: 0.5;">/* Targets the High Contrast Black theme: */
+                        @media (-ms-high-contrast: white-on-black) { }
+
+                        /* Targets the High Contrast White theme: */
+                        @media (-ms-high-contrast: black-on-white) { }
+                        </s>
+                        /* Targets any active High Contrast theme */
+                        @media (-ms-high-contrast: active) { }
+	                </code></pre>
+                </section>
+
+<!-- CSS2 system colors -->
+                <section>
+                    <h2 class="line-height-tight">CSS2<br />System Colors</h2>
+                </section>
+
+<!-- CSS2 color keywords table 1 -->
+                <section>
+                    <table class="table-feature">
+                        <tr>
+                            <td>ActiveBorder</td>
+                            <td>ActiveCaption</td>
+                            <td>AppWorkspace</td>
+                            <td>Background</td>
+                        </tr>
+                        <tr>
+                            <td>ButtonFace</td>
+                            <td>ButtonHighlight</td>
+                            <td>ButtonShadow</td>
+                            <td>ButtonText</td>
+                        </tr>
+                        <tr>
+                            <td>CaptionText</td>
+                            <td>GrayText</td>
+                            <td>Highlight</td>
+                            <td>HighlightText</td>
+                        </tr>
+                        <tr>
+                            <td>InactiveBorder</td>
+                            <td>InactiveCaption</td>
+                            <td>InactiveCaptionText</td>
+                            <td>InfoBackground</td>
+                        </tr>
+                        <tr>
+                            <td>InfoText</td>
+                            <td>Menu</td>
+                            <td>MenuText</td>
+                            <td>Scrollbar</td>
+                        </tr>
+                        <tr>
+                            <td>ThreeDDarkShadow</td>
+                            <td>ThreeDFace</td>
+                            <td>ThreeDHighlight</td>
+                            <td>ThreeDLightShadow</td>
+                        </tr>
+                        <tr>
+                            <td>ThreeDShadow</td>
+                            <td>Window</td>
+                            <td>WindowFrame</td>
+                            <td>WindowText</td>
+                        </tr>
+                    </table>
+                </section>
+
+<!-- Bad actors -->
+                <section>
+                    <img src="lib/img/windows-error.png" />
+                </section>
+
+<!-- High contrast keywords -->
+                <section>
+                    <h2>High Contrast Mode Keywords</h2>
+                </section>
+
+<!-- High contrast keywords table -->
+                <section>
+                    <table class="table-feature">
+                        <tr>
+                            <td>ActiveBorder</td>
+                            <td>ActiveCaption</td>
+                            <td>AppWorkspace</td>
+                            <td>Background</td>
+                        </tr>
+                        <tr>
+                            <td>ButtonFace</td>
+                            <td>ButtonHighlight</td>
+                            <td>ButtonShadow</td>
+                            <td>ButtonText</td>
+                        </tr>
+                        <tr>
+                            <td>CaptionText</td>
+                            <td>GrayText</td>
+                            <td>Highlight</td>
+                            <td>HighlightText</td>
+                        </tr>
+                        <tr>
+                            <td>InactiveBorder</td>
+                            <td>InactiveCaption</td>
+                            <td>InactiveCaptionText</td>
+                            <td>InfoBackground</td>
+                        </tr>
+                        <tr>
+                            <td>InfoText</td>
+                            <td>Menu</td>
+                            <td>MenuText</td>
+                            <td>Scrollbar</td>
+                        </tr>
+                        <tr>
+                            <td>ThreeDDarkShadow</td>
+                            <td>ThreeDFace</td>
+                            <td>ThreeDHighlight</td>
+                            <td>ThreeDLightShadow</td>
+                        </tr>
+                        <tr>
+                            <td>ThreeDShadow</td>
+                            <td>Window</td>
+                            <td>WindowFrame</td>
+                            <td>WindowText</td>
+                        </tr>
+                    </table>
+                </section>
+
+<!-- High contrast keywords table, faded -->
+                <section>
+                    <table class="table-feature">
+                        <tr>
+                            <td class="faded-feature">ActiveBorder</td>
+                            <td class="faded-feature">ActiveCaption</td>
+                            <td class="faded-feature">AppWorkspace</td>
+                            <td class="faded-feature">Background</td>
+                        </tr>
+                        <tr>
+                            <td>ButtonFace</td>
+                            <td class="faded-feature">ButtonHighlight</td>
+                            <td class="faded-feature">ButtonShadow</td>
+                            <td class="faded-feature">ButtonText</td>
+                        </tr>
+                        <tr>
+                            <td class="faded-feature">CaptionText</td>
+                            <td class="faded-feature">GrayText</td>
+                            <td>Highlight</td>
+                            <td>HighlightText</td>
+                        </tr>
+                        <tr>
+                            <td class="faded-feature">InactiveBorder</td>
+                            <td class="faded-feature">InactiveCaption</td>
+                            <td class="faded-feature">InactiveCaptionText</td>
+                            <td class="faded-feature">InfoBackground</td>
+                        </tr>
+                        <tr>
+                            <td class="faded-feature">InfoText</td>
+                            <td class="faded-feature">Menu</td>
+                            <td class="faded-feature">MenuText</td>
+                            <td class="faded-feature">Scrollbar</td>
+                        </tr>
+                        <tr>
+                            <td class="faded-feature">ThreeDDarkShadow</td>
+                            <td class="faded-feature">ThreeDFace</td>
+                            <td class="faded-feature">ThreeDHighlight</td>
+                            <td class="faded-feature">ThreeDLightShadow</td>
+                        </tr>
+                        <tr>
+                            <td class="faded-feature">ThreeDShadow</td>
+                            <td>Window</td>
+                            <td class="faded-feature">WindowFrame</td>
+                            <td>WindowText</td>
+                        </tr>
+                    </table>
+                </section>
+
+<!-- Remaining features table 1 -->
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="font-size: 90%; padding-bottom: 0.5em; padding-right: 6em;">Keyword</th>
+                                <th style="font-size: 90%; padding-bottom: 0.5em;">Content Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code class="code-inline">windowText</code></td>
+                                <td>Text</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">&lt;a&gt;</code></td>
+                                <td>Links</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td style="border-bottom: none;"><code class="code-inline">highlightText</code></td>
+                                <td style="border-bottom: none;">Selected Text Foreground</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">highlight</code></td>
+                                <td>Selected Text Background</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">buttonFace</code></td>
+                                <td>Button Text</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">window</code></td>
+                                <td>Background Color</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+<!-- Remaining features table 2 -->
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="font-size: 90%; padding-bottom: 0.5em; padding-right: 6em;">Keyword</th>
+                                <th style="font-size: 90%; padding-bottom: 0.5em;">Content Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code class="code-inline">windowText</code></td>
+                                <td>Text</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">&lt;a&gt;</code></td>
+                                <td>Links</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td style="border-bottom: none;"><code class="code-inline">highlightText</code></td>
+                                <td style="border-bottom: none;">Selected Text Foreground</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">highlight</code></td>
+                                <td>Selected Text Background</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">buttonFace</code></td>
+                                <td>Button Text</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">window</code></td>
+                                <td>Background Color</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+<!-- Remaining features table 3 -->
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="font-size: 90%; padding-bottom: 0.5em; padding-right: 6em;">Keyword</th>
+                                <th style="font-size: 90%; padding-bottom: 0.5em;">Content Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code class="code-inline">windowText</code></td>
+                                <td>Text</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">&lt;a&gt;</code></td>
+                                <td>Links</td>
+                            </tr>
+                            <tr>
+                                <td style="border-bottom: none;"><code class="code-inline">highlightText</code></td>
+                                <td style="border-bottom: none;">Selected Text Foreground</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">highlight</code></td>
+                                <td>Selected Text Background</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">buttonFace</code></td>
+                                <td>Button Text</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">window</code></td>
+                                <td>Background Color</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+<!-- Remaining features table 4 -->
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="font-size: 90%; padding-bottom: 0.5em; padding-right: 6em;">Keyword</th>
+                                <th style="font-size: 90%; padding-bottom: 0.5em;">Content Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code class="code-inline">windowText</code></td>
+                                <td>Text</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">&lt;a&gt;</code></td>
+                                <td>Links</td>
+                            </tr>
+                            <tr>
+                                <td style="border-bottom: none;"><code class="code-inline">highlightText</code></td>
+                                <td style="border-bottom: none;">Selected Text Foreground</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">highlight</code></td>
+                                <td>Selected Text Background</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">buttonFace</code></td>
+                                <td>Button Text</td>
+                            </tr>
+                            <tr class="invisible">
+                                <td><code class="code-inline">window</code></td>
+                                <td>Background Color</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+<!-- Remaining features table 5 -->
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="font-size: 90%; padding-bottom: 0.5em; padding-right: 6em;">Keyword</th>
+                                <th style="font-size: 90%; padding-bottom: 0.5em;">Content Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code class="code-inline">windowText</code></td>
+                                <td>Text</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">&lt;a&gt;</code></td>
+                                <td>Links</td>
+                            </tr>
+                            <tr>
+                                <td style="border-bottom: none;"><code class="code-inline">highlightText</code></td>
+                                <td style="border-bottom: none;">Selected Text Foreground</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">highlight</code></td>
+                                <td>Selected Text Background</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">buttonFace</code></td>
+                                <td>Button Text</td>
+                            </tr>
+                            <tr>
+                                <td><code class="code-inline">window</code></td>
+                                <td>Background Color</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+<!-- Isn't this limited -->
+                <section>
+                    <h2 style="font-size: 2em;" class="light">&ldquo;Isn’t this limited?&rdquo;</h2>
+                    <h2>Yes, that's the point!</h2>
+                </section>
+
+<!-- Keep it predictable -->
+                <section>
+                    <p>Keep it predictable</p>
+                    <h2>Gentle nudges, not complete overhauls</h2>
+                </section>
+
+<!-- How it works -->
+                <section>
+                    <h2>Using it</h2>
+                </section>
+
+<!-- Code 3 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Apply styling when High Contrast Mode is active */
+                        @media <span class="mark">(-ms-high-contrast: active)</span> {
+                        }
+	                </code></pre>
+                    <div class="example">
+                        <label for="example-1">
+                            Your name
+                            <input placeholder="ex: John" id="example-1" type="text" />
+                        </label>
+                    </div>
+                </section>
+
+<!-- Code 4 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Apply styling when High Contrast Mode is active */
+                        @media (-ms-high-contrast: active) {
+                        }
+	                </code></pre>
+                    <div class="example">
+                        <label for="example-1">
+                            Your name
+                            <input id="example-1" type="text" />
+                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                        </label>
+                    </div>
+                </section>
+
+<!-- Code 5 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Apply styling when High Contrast Mode is active */
+                        @media (-ms-high-contrast: active) {
+                            <span class="mark">input</span> {
+                                border: 2px solid <span class="mark">#ffffff</span>;
+                            }
+                        }
+	                </code></pre>
+                    <div class="example">
+                        <label for="example-1">
+                            Your name
+                            <input id="example-1" type="text" />
+                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                        </label>
+                    </div>
+                </section>
+
+<!-- Code 6 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Apply styling when High Contrast Mode is active */
+                        @media (-ms-high-contrast: active) {
+                            input {
+                                border: 2px solid <span class="mark">buttonFace</span>;
+                            }
+                        }
+	                </code></pre>
+                    <div class="example">
+                        <label for="example-1">
+                            Your name
+                            <input id="example-1" type="text" />
+                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                        </label>
+                    </div>
+                </section>
+
+<!-- Code 7 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        &lt;span class="button" role="button" tabindex="0"&gt;
+                          Get started with AngularJS
+                        &lt;/span&gt;
+                    </code></pre>
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Apply styling when High Contrast Mode is active */
+                        @media (-ms-high-contrast: active) {
+                        }
+	                </code></pre>
+                    <div class="example">
+                        &nbsp;
+                        <span class="button" role="button" tabindex="0">Get started with AngularJS</span>
+                        &nbsp;
+                    </div>
+                </section>
+
+<!-- Code 8 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        &lt;span class="button" role="button" tabindex="0"&gt;
+                          Get started with AngularJS
+                        &lt;/span&gt;
+                    </code></pre>
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Apply styling when High Contrast Mode is active */
+                        @media (-ms-high-contrast: active) {
+                            <span class="mark">[role="button"]</span> {
+                                background-color: <span class="mark">buttonText</span>;
+                                color: <span class="mark">window</span>;
+                            }
+                        }
+	                </code></pre>
+                    <div class="example">
+                        &nbsp;
+                        <span class="button" role="button" tabindex="0">Get started with AngularJS</span>
+                        &nbsp;
+                    </div>
+                </section>
+
+<!-- Content considerations -->
+                <section>
+                    <h2>Content considerations</h2>
+                </section>
+
+<!-- Background images -->
+                <section>
+                    <h2>Background images</h2>
+                </section>
+
+<!-- Background images -->
+                <section>
+                    <h3>&ldquo;Don't use CSS background images to deliver content.&rdquo;</h3>
+                    <p>—Terrill Thompson</p>
+                </section>
+
+<!-- Background images -->
+                <section>
+                    <img src="lib/img/xbox-after.png" />
+                </section>
+
+<!-- Raster -->
+                <section>
+                    <h2>Raster images</h2>
+                    <p>JPEGs, PNGs, GIFs, etc.</p>
+                </section>
+
+<!-- Sat -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Slightly enhance important images */
+                        @media screen and (-ms-high-contrast: active) {
+                          img.hero {
+                            filter: brightness(1) contrast(1) saturate(1.5);
+                          }
+                        }
+                    </code></pre>
+                </section>
+
+<!-- Enhance example -->
+                <section>
+                    <img class="example-image" src="lib/img/biden-biden.jpg" />
+                </section>
+
+<!-- SVG -->
+                <section>
+                    <h2>SVG</h2>
+                    <p>Scalable Vector Graphics</p>
+                </section>
+
+<!-- Static icons -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Only applies to inline SVG */
+                        /* Non-interactive icons */
+                        @media screen and (-ms-high-contrast: active) {
+                          .icon-svg {
+                            fill: <span class="mark">currentColor</span>;
+                          }
+                        }
+                    </code></pre>
+                    <div class="example">
+                        <svg class="svg-icon-static" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/>
+                        </svg> <span class="svg-icon-static-message">File saved!</span>
+                    </div>
+                </section>
+
+<!-- Dynamic icons -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Interactive icons */
+                        @media screen and (-ms-high-contrast: active) {
+                          button.icon-svg {
+                            border-color: <span class="mark">buttonFace</span>;
+                            fill: <span class="mark">buttonFace</span>;
+                          }
+                        }
+                    </code></pre>
+                    <div class="example">
+                        <svg class="svg-icon-button" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1596 380q28 28 48 76t20 88v1152q0 40-28 68t-68 28H224q-40 0-68-28t-28-68V96q0-40 28-68t68-28h896q40 0 88 20t76 48zm-444-244v376h376q-10-29-22-41l-313-313q-12-12-41-22zm384 1528V640h-416q-40 0-68-28t-28-68V128H256v1536h1280zm-128-448v320H384v-192l192-192 128 128 384-384zm-832-192q-80 0-136-56t-56-136 56-136 136-56 136 56 56 136-56 136-136 56z"/></svg>
+                        <svg class="svg-icon-button" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M381 1620q0 80-54.5 126T191 1792q-106 0-172-66l57-88q49 45 106 45 29 0 50.5-14.5T254 1626q0-64-105-56l-26-56q8-10 32.5-43.5t42.5-54 37-38.5v-1q-16 0-48.5 1t-48.5 1v53H32v-152h333v88l-95 115q51 12 81 49t30 88zm2-627v159H21q-6-36-6-54 0-51 23.5-93T95 937t66-47.5 56.5-43.5 23.5-45q0-25-14.5-38.5T187 749q-46 0-81 58l-85-59q24-51 71.5-79.5T198 640q73 0 123 41.5T371 794q0 50-34 91.5T262 950t-75.5 50.5T151 1053h127v-60h105zm1409 319v192q0 13-9.5 22.5t-22.5 9.5H544q-13 0-22.5-9.5T512 1504v-192q0-14 9-23t23-9h1216q13 0 22.5 9.5t9.5 22.5zM384 413v99H49v-99h107q0-41 .5-121.5T157 170v-12h-2q-8 17-50 54l-71-76L170 9h106v404h108zm1408 387v192q0 13-9.5 22.5t-22.5 9.5H544q-13 0-22.5-9.5T512 992V800q0-14 9-23t23-9h1216q13 0 22.5 9.5t9.5 22.5zm0-512v192q0 13-9.5 22.5T1760 512H544q-13 0-22.5-9.5T512 480V288q0-13 9.5-22.5T544 256h1216q13 0 22.5 9.5t9.5 22.5z"/></svg>
+                        <svg class="svg-icon-button" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 256v448q0 26-19 45t-45 19h-448q-42 0-59-40-17-39 14-69l138-138q-148-137-349-137-104 0-198.5 40.5T534 534 424.5 697.5 384 896t40.5 198.5T534 1258t163.5 109.5T896 1408q119 0 225-52t179-147q7-10 23-12 15 0 25 9l137 138q9 8 9.5 20.5t-7.5 22.5q-109 132-264 204.5T896 1664q-156 0-298-61t-245-164-164-245-61-298 61-298 164-245 245-164 298-61q147 0 284.5 55.5T1425 340l130-129q29-31 70-14 39 17 39 59z"/></svg>
+                        <svg class="svg-icon-button" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M176 223q-37-2-45-4l-3-88q13-1 40-1 60 0 112 4 132 7 166 7 86 0 168-3 116-4 146-5 56 0 86-2l-1 14 2 64v9q-60 9-124 9-60 0-79 25-13 14-13 132 0 13 .5 32.5t.5 25.5l1 229 14 280q6 124 51 202 35 59 96 92 88 47 177 47 104 0 191-28 56-18 99-51 48-36 65-64 36-56 53-114 21-73 21-229 0-79-3.5-128t-11-122.5T1372 396l-4-59q-5-67-24-88-34-35-77-34l-100 2-14-3 2-86h84l205 10q76 3 196-10l18 2q6 38 6 51 0 7-4 31-45 12-84 13-73 11-79 17-15 15-15 41 0 7 1.5 27t1.5 31q8 19 22 396 6 195-15 304-15 76-41 122-38 65-112 123-75 57-182 89-109 33-255 33-167 0-284-46-119-47-179-122-61-76-83-195-16-80-16-237V475q0-188-17-213-25-36-147-39zm1488 1409v-64q0-14-9-23t-23-9H160q-14 0-23 9t-9 23v64q0 14 9 23t23 9h1472q14 0 23-9t9-23z"/></svg>
+                        <svg class="svg-icon-button" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M768 1664h896v-640h-416q-40 0-68-28t-28-68V512H768v1152zm256-1440v-64q0-13-9.5-22.5T992 128H288q-13 0-22.5 9.5T256 160v64q0 13 9.5 22.5T288 256h704q13 0 22.5-9.5t9.5-22.5zm256 672h299l-299-299v299zm512 128v672q0 40-28 68t-68 28H736q-40 0-68-28t-28-68v-160H96q-40 0-68-28t-28-68V96q0-40 28-68T96 0h1088q40 0 68 28t28 68v328q21 13 36 28l408 408q28 28 48 76t20 88z"/></svg>
+                    </div>
+                </section>
+
+<!-- SVG bar chart -->
+                <section>
+                    <svg class="bar-chart" xmlns="http://www.w3.org/2000/svg" width="800" height="590.703" viewBox="0 0 1000 790.703">
+                      <title>
+                        Club Membership
+                      </title>
+                      <g>
+                        <g>
+                          <path fill="none" class="frame" stroke-miterlimit="10" d="M81 596.56h899"/>
+                          <g fill="none" class="frame" stroke-miterlimit="10">
+                            <path d="M81 596.56v-12.475M980 596.56v12.475"/>
+                          </g>
+                          <g>
+                            <g>
+                              <path class="text" d="M66.09 604.394c0 5.3-1.967 8.232-5.424 8.232-3.048 0-5.112-2.855-5.16-8.017 0-5.233 2.256-8.113 5.424-8.113 3.288.003 5.16 2.928 5.16 7.897zm-8.472.24c0 4.056 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.986-6.36-3.17-6.36-1.848-.005-3.192 2.252-3.192 6.5z"/>
+                              <g>
+                                <path class="text" d="M23.37 515.563h-.047l-2.712 1.464-.407-1.608 3.408-1.825h1.8v15.6h-2.04zM41.467 521.228c0 5.3-1.968 8.232-5.425 8.232-3.048 0-5.112-2.856-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.293 0 5.16 2.93 5.16 7.898zm-8.473.24c0 4.056 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85-.005-3.193 2.252-3.193 6.5zM53.78 521.228c0 5.3-1.97 8.232-5.426 8.232-3.048 0-5.112-2.856-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.287 0 5.16 2.93 5.16 7.898zm-8.474.24c0 4.056 1.25 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85-.005-3.194 2.252-3.194 6.5zM66.09 521.228c0 5.3-1.967 8.232-5.424 8.232-3.048 0-5.112-2.856-5.16-8.017 0-5.232 2.256-8.112 5.424-8.112 3.288 0 5.16 2.93 5.16 7.898zm-8.472.24c0 4.056 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.986-6.36-3.17-6.36-1.848-.005-3.192 2.252-3.192 6.5z"/>
+                              </g>
+                              <g>
+                                <path class="text" d="M18.787 446.03v-1.3l1.656-1.61c3.984-3.79 5.784-5.808 5.808-8.16a2.783 2.783 0 0 0-3.1-3.048 5.313 5.313 0 0 0-3.31 1.32l-.673-1.488a6.845 6.845 0 0 1 4.416-1.584 4.39 4.39 0 0 1 4.776 4.536c0 2.88-2.09 5.21-5.377 8.377l-1.248 1.152v.048h7.01v1.752zM41.467 438.06c0 5.3-1.968 8.233-5.425 8.233-3.048 0-5.112-2.855-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.293 0 5.16 2.928 5.16 7.897zm-8.473.24c0 4.057 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85 0-3.193 2.253-3.193 6.5zM53.78 438.06c0 5.3-1.97 8.233-5.426 8.233-3.048 0-5.112-2.855-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.287 0 5.16 2.928 5.16 7.897zm-8.474.24c0 4.057 1.25 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85 0-3.194 2.253-3.194 6.5zM66.09 438.06c0 5.3-1.967 8.233-5.424 8.233-3.048 0-5.112-2.855-5.16-8.017 0-5.232 2.256-8.112 5.424-8.112 3.288 0 5.16 2.928 5.16 7.897zm-8.472.24c0 4.057 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.986-6.36-3.17-6.36-1.848 0-3.192 2.253-3.192 6.5z"/>
+                              </g>
+                              <g>
+                                <path class="text" d="M19.29 360.438a7.06 7.06 0 0 0 3.457.984c2.712 0 3.552-1.728 3.528-3.025-.024-2.183-1.992-3.12-4.032-3.12h-1.176v-1.584h1.176c1.536 0 3.48-.792 3.48-2.64 0-1.248-.792-2.352-2.736-2.352a5.73 5.73 0 0 0-3.12 1.033l-.553-1.536A7.422 7.422 0 0 1 23.4 347c3.072 0 4.464 1.824 4.464 3.72a3.876 3.876 0 0 1-2.88 3.673v.048a4.063 4.063 0 0 1 3.48 4.01c0 2.5-1.944 4.68-5.688 4.68a7.93 7.93 0 0 1-4.056-1.057zM41.467 354.894c0 5.3-1.968 8.232-5.425 8.232-3.048 0-5.112-2.855-5.16-8.017 0-5.233 2.256-8.113 5.425-8.113 3.293.003 5.16 2.928 5.16 7.897zm-8.473.24c0 4.056 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.505 0-3.84-.983-6.36-3.167-6.36-1.85 0-3.193 2.256-3.193 6.504zM53.78 354.894c0 5.3-1.97 8.232-5.426 8.232-3.048 0-5.112-2.855-5.16-8.017 0-5.233 2.256-8.113 5.425-8.113 3.287.003 5.16 2.928 5.16 7.897zm-8.474.24c0 4.056 1.25 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.505 0-3.84-.983-6.36-3.167-6.36-1.85 0-3.194 2.256-3.194 6.504zM66.09 354.894c0 5.3-1.967 8.232-5.424 8.232-3.048 0-5.112-2.855-5.16-8.017 0-5.233 2.256-8.113 5.424-8.113 3.288.003 5.16 2.928 5.16 7.897zm-8.472.24c0 4.056 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.505 0-3.84-.986-6.36-3.17-6.36-1.848 0-3.192 2.256-3.192 6.504z"/>
+                              </g>
+                              <g>
+                                <path class="text" d="M25.315 279.7v-4.248h-7.25v-1.392l6.962-9.96h2.28v9.7h2.185v1.655h-2.184v4.245zm0-5.9v-5.21q0-1.222.072-2.447h-.072c-.48.912-.864 1.585-1.3 2.3l-3.815 5.3v.05zM41.467 271.728c0 5.3-1.968 8.232-5.425 8.232-3.048 0-5.112-2.856-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.293 0 5.16 2.93 5.16 7.898zm-8.473.24c0 4.056 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85-.005-3.193 2.252-3.193 6.5zM53.78 271.728c0 5.3-1.97 8.232-5.426 8.232-3.048 0-5.112-2.856-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.287 0 5.16 2.93 5.16 7.898zm-8.474.24c0 4.056 1.25 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85-.005-3.194 2.252-3.194 6.5zM66.09 271.728c0 5.3-1.967 8.232-5.424 8.232-3.048 0-5.112-2.856-5.16-8.017 0-5.232 2.256-8.112 5.424-8.112 3.288 0 5.16 2.93 5.16 7.898zm-8.472.24c0 4.056 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.986-6.36-3.17-6.36-1.848-.005-3.192 2.252-3.192 6.5z"/>
+                              </g>
+                              <g>
+                                <path class="text" d="M28.1 182.7h-5.953l-.6 4.01a8.194 8.194 0 0 1 1.272-.1 6.6 6.6 0 0 1 3.36.84 4.45 4.45 0 0 1 2.232 4.008c0 3.048-2.425 5.328-5.81 5.328a7.634 7.634 0 0 1-3.887-.96l.528-1.608a6.986 6.986 0 0 0 3.336.864 3.442 3.442 0 0 0 3.7-3.384c-.025-2.017-1.37-3.456-4.49-3.456a16.138 16.138 0 0 0-2.16.168l1.01-7.49h7.46zM41.467 188.56c0 5.3-1.968 8.233-5.425 8.233-3.048 0-5.112-2.855-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.293 0 5.16 2.928 5.16 7.897zm-8.473.24c0 4.057 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85 0-3.193 2.253-3.193 6.5zM53.78 188.56c0 5.3-1.97 8.233-5.426 8.233-3.048 0-5.112-2.855-5.16-8.017 0-5.232 2.256-8.112 5.425-8.112 3.287 0 5.16 2.928 5.16 7.897zm-8.474.24c0 4.057 1.25 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85 0-3.194 2.253-3.194 6.5zM66.09 188.56c0 5.3-1.967 8.233-5.424 8.233-3.048 0-5.112-2.855-5.16-8.017 0-5.232 2.256-8.112 5.424-8.112 3.288 0 5.16 2.928 5.16 7.897zm-8.472.24c0 4.057 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.986-6.36-3.17-6.36-1.848 0-3.192 2.253-3.192 6.5z"/>
+                              </g>
+                              <g>
+                                <path class="text" d="M27.69 99.25a7.63 7.63 0 0 0-1.583.1 6.34 6.34 0 0 0-5.424 5.544h.072a4.647 4.647 0 0 1 3.768-1.8c2.76 0 4.705 1.993 4.705 5.04a5.217 5.217 0 0 1-5.185 5.5c-3.336 0-5.52-2.59-5.52-6.647a9.81 9.81 0 0 1 2.64-7.033 8.492 8.492 0 0 1 4.992-2.3 10.15 10.15 0 0 1 1.536-.12zm-.6 9c0-2.233-1.27-3.578-3.215-3.578a3.477 3.477 0 0 0-3.024 1.92 1.8 1.8 0 0 0-.24.937c.05 2.567 1.225 4.463 3.433 4.463 1.824 0 3.048-1.51 3.048-3.743zM41.467 105.394c0 5.3-1.968 8.232-5.425 8.232-3.048 0-5.112-2.856-5.16-8.016 0-5.233 2.256-8.113 5.425-8.113 3.293.003 5.16 2.928 5.16 7.897zm-8.473.24c0 4.056 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85-.005-3.193 2.25-3.193 6.5zM53.78 105.394c0 5.3-1.97 8.232-5.426 8.232-3.048 0-5.112-2.856-5.16-8.016 0-5.233 2.256-8.113 5.425-8.113 3.287.003 5.16 2.928 5.16 7.897zm-8.474.24c0 4.056 1.25 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.167-6.36-1.85-.005-3.194 2.25-3.194 6.5zM66.09 105.394c0 5.3-1.967 8.232-5.424 8.232-3.048 0-5.112-2.856-5.16-8.016 0-5.233 2.256-8.113 5.424-8.113 3.288.003 5.16 2.928 5.16 7.897zm-8.472.24c0 4.056 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.986-6.36-3.17-6.36-1.848-.005-3.192 2.25-3.192 6.5z"/>
+                              </g>
+                            </g>
+                            <path fill="none" class="frame" stroke-miterlimit="10" d="M81 596.56v-499"/>
+                            <g fill="none" class="frame" stroke-miterlimit="10">
+                              <path d="M81 596.56h22.475M81 513.393h22.475M81 430.226h22.475M81 347.06h22.475M81 263.893h22.475M81 180.726h22.475M81 97.56h22.475"/>
+                            </g>
+                          </g>
+                          <path class="men" d="M106.733 513.393h80.91v83.167h-80.91z"/>
+                          <path class="women" d="M199.108 420.226h80.91V596.56h-80.91z"/>
+                          <path class="men" d="M331.483 430.226h80.91V596.56h-80.91z"/>
+                          <path class="women" d="M423.858 263.893h80.91V596.56h-80.91z"/>
+                          <path class="men" d="M556.233 283.893h80.91V596.56h-80.91z"/>
+                          <path class="women" d="M648.608 130.726h80.91V596.56h-80.91z"/>
+                          <path class="men" d="M780.983 430.226h80.91V596.56h-80.91z"/>
+                          <path class="women" d="M873.358 513.393h80.91v83.167h-80.91z"/>
+                          <g>
+                            <path class="text" d="M844.082 635.962v-1.3l1.656-1.608c3.985-3.792 5.784-5.81 5.81-8.162a2.783 2.783 0 0 0-3.1-3.047 5.307 5.307 0 0 0-3.313 1.32l-.672-1.488a6.846 6.846 0 0 1 4.417-1.584 4.39 4.39 0 0 1 4.776 4.536c0 2.88-2.09 5.208-5.377 8.376l-1.25 1.152v.048h7.01v1.752zM866.763 627.993c0 5.3-1.97 8.233-5.425 8.233-3.048 0-5.112-2.856-5.16-8.017 0-5.233 2.256-8.113 5.424-8.113 3.29.003 5.16 2.927 5.16 7.896zm-8.473.24c0 4.057 1.248 6.36 3.168 6.36 2.16 0 3.192-2.52 3.192-6.5 0-3.84-.984-6.36-3.168-6.36-1.848-.004-3.192 2.252-3.192 6.5zM879.074 627.993c0 5.3-1.97 8.233-5.425 8.233-3.048 0-5.113-2.856-5.16-8.017 0-5.233 2.255-8.113 5.423-8.113 3.287.003 5.16 2.927 5.16 7.896zm-8.472.24c0 4.057 1.248 6.36 3.168 6.36 2.16 0 3.192-2.52 3.192-6.5 0-3.84-.984-6.36-3.168-6.36-1.85-.004-3.194 2.252-3.194 6.5zM891.386 627.993c0 5.3-1.97 8.233-5.425 8.233-3.047 0-5.11-2.856-5.16-8.017 0-5.233 2.257-8.113 5.425-8.113 3.29.003 5.16 2.927 5.16 7.896zm-8.473.24c0 4.057 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.984-6.36-3.168-6.36-1.848-.004-3.192 2.252-3.192 6.5z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M623.916 622.33h-.048l-2.712 1.463-.408-1.608 3.408-1.825h1.8v15.6h-2.04zM632.868 634.474a8.828 8.828 0 0 0 1.7-.073 5.89 5.89 0 0 0 3.264-1.51 6.85 6.85 0 0 0 2.064-4.153h-.072a4.578 4.578 0 0 1-3.672 1.68 4.518 4.518 0 0 1-4.608-4.776 5.348 5.348 0 0 1 5.328-5.543c3.192 0 5.16 2.59 5.16 6.576a9.86 9.86 0 0 1-2.687 7.32 7.8 7.8 0 0 1-4.537 2.09 9.836 9.836 0 0 1-1.944.12zm.768-8.977a3 3 0 0 0 3 3.313 3.492 3.492 0 0 0 3.072-1.633 1.394 1.394 0 0 0 .192-.768c0-2.665-.984-4.7-3.192-4.7-1.8-.005-3.072 1.58-3.072 3.79zM645.18 634.474a8.838 8.838 0 0 0 1.704-.073 5.887 5.887 0 0 0 3.263-1.51 6.844 6.844 0 0 0 2.065-4.153h-.072a4.58 4.58 0 0 1-3.672 1.68 4.518 4.518 0 0 1-4.61-4.776 5.348 5.348 0 0 1 5.33-5.543c3.192 0 5.16 2.59 5.16 6.576a9.86 9.86 0 0 1-2.688 7.32 7.8 7.8 0 0 1-4.537 2.09 9.832 9.832 0 0 1-1.944.12zm.767-8.977a3 3 0 0 0 3 3.313 3.494 3.494 0 0 0 3.073-1.633 1.394 1.394 0 0 0 .192-.768c0-2.665-.984-4.7-3.192-4.7-1.8-.005-3.073 1.58-3.073 3.79zM666.636 627.993c0 5.3-1.97 8.233-5.425 8.233-3.047 0-5.11-2.856-5.16-8.017 0-5.233 2.257-8.113 5.425-8.113 3.29.003 5.16 2.927 5.16 7.896zm-8.473.24c0 4.057 1.248 6.36 3.168 6.36 2.16 0 3.193-2.52 3.193-6.5 0-3.84-.984-6.36-3.168-6.36-1.848-.004-3.192 2.252-3.192 6.5z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M399.167 622.33h-.048l-2.714 1.463-.406-1.608 3.408-1.825h1.8v15.6h-2.04zM408.118 634.474a8.825 8.825 0 0 0 1.7-.073 5.89 5.89 0 0 0 3.264-1.51 6.85 6.85 0 0 0 2.064-4.153h-.072a4.578 4.578 0 0 1-3.672 1.68 4.52 4.52 0 0 1-4.61-4.776 5.35 5.35 0 0 1 5.33-5.543c3.192 0 5.16 2.59 5.16 6.576a9.86 9.86 0 0 1-2.688 7.32 7.8 7.8 0 0 1-4.536 2.09 9.836 9.836 0 0 1-1.944.12zm.768-8.977a3 3 0 0 0 3 3.313 3.492 3.492 0 0 0 3.072-1.633 1.394 1.394 0 0 0 .192-.768c0-2.665-.984-4.7-3.192-4.7-1.8-.005-3.072 1.58-3.072 3.79zM419.013 632a4.458 4.458 0 0 1 3.1-4.177l-.024-.072a3.863 3.863 0 0 1-2.473-3.5c0-2.472 2.088-4.15 4.825-4.15 3.024 0 4.536 1.9 4.536 3.84a3.963 3.963 0 0 1-2.568 3.647v.072c1.944.767 3.144 2.135 3.144 4.03 0 2.713-2.328 4.538-5.3 4.538-3.273-.002-5.24-1.946-5.24-4.228zm8.4-.1c0-1.895-1.32-2.807-3.433-3.408-1.824.528-2.808 1.73-2.808 3.217a2.884 2.884 0 0 0 3.12 2.974 2.823 2.823 0 0 0 3.122-2.78zm-5.81-7.8c0 1.56 1.177 2.4 2.978 2.88a3.074 3.074 0 0 0 2.377-2.83 2.425 2.425 0 0 0-2.64-2.546 2.482 2.482 0 0 0-2.712 2.496zM441.886 627.993c0 5.3-1.968 8.233-5.425 8.233-3.047 0-5.11-2.856-5.16-8.017 0-5.233 2.257-8.113 5.426-8.113 3.288.003 5.16 2.927 5.16 7.896zm-8.473.24c0 4.057 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.168-6.36-1.848-.004-3.192 2.252-3.192 6.5z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M174.417 622.33h-.048l-2.714 1.463-.408-1.608 3.408-1.825h1.8v15.6h-2.04zM183.368 634.474a8.825 8.825 0 0 0 1.7-.073 5.89 5.89 0 0 0 3.264-1.51 6.85 6.85 0 0 0 2.064-4.153h-.072a4.578 4.578 0 0 1-3.672 1.68 4.52 4.52 0 0 1-4.61-4.776 5.35 5.35 0 0 1 5.33-5.543c3.192 0 5.16 2.59 5.16 6.576a9.86 9.86 0 0 1-2.688 7.32 7.8 7.8 0 0 1-4.536 2.09 9.836 9.836 0 0 1-1.944.12zm.768-8.977a3 3 0 0 0 3 3.313 3.492 3.492 0 0 0 3.072-1.633 1.394 1.394 0 0 0 .192-.768c0-2.665-.984-4.7-3.192-4.7-1.8-.005-3.072 1.58-3.072 3.79zM204.584 620.36v1.393l-6.792 14.21h-2.185l6.77-13.8v-.05h-7.634v-1.753zM217.136 627.993c0 5.3-1.968 8.233-5.425 8.233-3.047 0-5.11-2.856-5.16-8.017 0-5.233 2.257-8.113 5.426-8.113 3.288.003 5.16 2.927 5.16 7.896zm-8.473.24c0 4.057 1.248 6.36 3.17 6.36 2.16 0 3.19-2.52 3.19-6.5 0-3.84-.983-6.36-3.168-6.36-1.848-.004-3.192 2.252-3.192 6.5z"/>
+                          </g>
+                          <path fill="none" class="frame" stroke-miterlimit="10" d="M305.75 596.56v12.475M530.487 596.56v12.475M755.25 596.56v12.475"/>
+                          <g>
+                            <path class="text" d="M132.97 493.165h-.036l-2.035 1.1-.307-1.206 2.556-1.37h1.35v11.7h-1.53zM146.542 497.415c0 3.98-1.476 6.176-4.068 6.176-2.287 0-3.836-2.142-3.87-6.013 0-3.926 1.69-6.086 4.067-6.086 2.468 0 3.872 2.198 3.872 5.925zm-6.355.18c0 3.043.936 4.77 2.376 4.77 1.62 0 2.4-1.89 2.4-4.878 0-2.88-.738-4.77-2.376-4.77-1.387 0-2.4 1.69-2.4 4.883zM155.776 497.415c0 3.98-1.476 6.176-4.07 6.176-2.286 0-3.834-2.142-3.87-6.013 0-3.926 1.692-6.086 4.07-6.086 2.466 0 3.87 2.198 3.87 5.925zm-6.356.18c0 3.043.936 4.77 2.377 4.77 1.62 0 2.394-1.89 2.394-4.878 0-2.88-.737-4.77-2.375-4.77-1.386 0-2.395 1.69-2.395 4.883zM165.01 497.415c0 3.98-1.476 6.176-4.07 6.176-2.286 0-3.835-2.142-3.87-6.013 0-3.926 1.692-6.086 4.07-6.086 2.46 0 3.87 2.198 3.87 5.925zm-6.356.18c0 3.043.936 4.77 2.377 4.77 1.62 0 2.395-1.89 2.395-4.878 0-2.88-.737-4.77-2.376-4.77-1.388 0-2.396 1.69-2.396 4.883z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M221.905 410.227v-.973l1.243-1.206c2.99-2.845 4.34-4.358 4.357-6.122a2.087 2.087 0 0 0-2.322-2.286 3.985 3.985 0 0 0-2.485.99l-.5-1.116a5.134 5.134 0 0 1 3.313-1.19 3.294 3.294 0 0 1 3.585 3.4c0 2.162-1.567 3.908-4.033 6.285l-.937.863v.036h5.258v1.314zM238.917 404.25c0 3.978-1.476 6.175-4.068 6.175-2.288 0-3.837-2.143-3.872-6.014 0-3.925 1.692-6.085 4.068-6.085 2.467 0 3.87 2.196 3.87 5.924zm-6.355.18c0 3.042.936 4.77 2.376 4.77 1.62 0 2.4-1.89 2.4-4.88 0-2.88-.738-4.77-2.376-4.77-1.392 0-2.4 1.692-2.4 4.88zM248.15 404.25c0 3.978-1.475 6.175-4.068 6.175-2.287 0-3.835-2.143-3.87-6.014 0-3.925 1.69-6.085 4.068-6.085 2.467 0 3.87 2.196 3.87 5.924zm-6.355.18c0 3.042.936 4.77 2.377 4.77 1.62 0 2.394-1.89 2.394-4.88 0-2.88-.738-4.77-2.376-4.77-1.39 0-2.39 1.692-2.39 4.88zM256.287 399.64a5.657 5.657 0 0 0-1.19.072 4.755 4.755 0 0 0-4.068 4.16h.053a3.568 3.568 0 0 1 6.356 2.43 3.914 3.914 0 0 1-3.89 4.123c-2.5 0-4.14-1.945-4.14-4.987a7.362 7.362 0 0 1 1.98-5.277 6.372 6.372 0 0 1 3.744-1.727 7.626 7.626 0 0 1 1.153-.09zm-.45 6.752a2.378 2.378 0 0 0-2.413-2.683 2.608 2.608 0 0 0-2.27 1.44 1.35 1.35 0 0 0-.18.7c.037 1.925.92 3.347 2.576 3.347 1.368.003 2.286-1.132 2.286-2.805z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M354.28 420.226v-.973l1.243-1.206c2.99-2.844 4.34-4.357 4.357-6.122a2.087 2.087 0 0 0-2.322-2.286 3.985 3.985 0 0 0-2.485.99l-.5-1.117a5.14 5.14 0 0 1 3.313-1.188 3.293 3.293 0 0 1 3.584 3.4c0 2.16-1.567 3.907-4.033 6.284l-.937.863v.037h5.258v1.314zM371.292 414.25c0 3.977-1.476 6.174-4.068 6.174-2.287 0-3.836-2.142-3.87-6.013 0-3.925 1.69-6.085 4.067-6.085 2.468 0 3.872 2.196 3.872 5.924zm-6.355.178c0 3.043.936 4.772 2.376 4.772 1.62 0 2.4-1.89 2.4-4.88 0-2.88-.738-4.77-2.376-4.77-1.392 0-2.4 1.692-2.4 4.878zM380.526 414.25c0 3.977-1.476 6.174-4.07 6.174-2.286 0-3.834-2.142-3.87-6.013 0-3.925 1.692-6.085 4.07-6.085 2.466 0 3.87 2.196 3.87 5.924zm-6.356.178c0 3.043.936 4.772 2.377 4.772 1.62 0 2.394-1.89 2.394-4.88 0-2.88-.737-4.77-2.375-4.77-1.386 0-2.395 1.692-2.395 4.878zM381.98 420.226v-.973l1.244-1.206c2.99-2.844 4.34-4.357 4.357-6.122a2.087 2.087 0 0 0-2.32-2.286 3.985 3.985 0 0 0-2.486.99l-.5-1.117a5.135 5.135 0 0 1 3.313-1.188 3.292 3.292 0 0 1 3.583 3.4c0 2.16-1.567 3.907-4.033 6.284l-.937.863v.037h5.258v1.314z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M447.034 252.075a5.294 5.294 0 0 0 2.592.738c2.035 0 2.665-1.3 2.647-2.268-.018-1.64-1.494-2.34-3.025-2.34h-.882v-1.19h.882c1.152 0 2.61-.594 2.61-1.98 0-.936-.593-1.764-2.05-1.764a4.3 4.3 0 0 0-2.342.775l-.414-1.152a5.553 5.553 0 0 1 3.06-.9c2.3 0 3.35 1.368 3.35 2.79a2.907 2.907 0 0 1-2.16 2.756v.034a3.05 3.05 0 0 1 2.61 3.007c0 1.874-1.46 3.513-4.267 3.513a5.948 5.948 0 0 1-3.043-.792zM456.808 252.777a6.678 6.678 0 0 0 1.278-.053 4.417 4.417 0 0 0 2.45-1.135 5.137 5.137 0 0 0 1.547-3.116h-.054a3.43 3.43 0 0 1-2.756 1.26 3.39 3.39 0 0 1-3.457-3.583 4.013 4.013 0 0 1 4-4.158c2.395 0 3.872 1.945 3.872 4.934a7.4 7.4 0 0 1-2.018 5.49 5.84 5.84 0 0 1-3.4 1.567 7.3 7.3 0 0 1-1.458.09zm.576-6.734a2.25 2.25 0 0 0 2.25 2.485 2.62 2.62 0 0 0 2.305-1.224 1.05 1.05 0 0 0 .143-.576c0-2-.738-3.53-2.4-3.53-1.345.002-2.3 1.19-2.3 2.845zM466.04 252.777a6.678 6.678 0 0 0 1.28-.053 4.414 4.414 0 0 0 2.448-1.135 5.132 5.132 0 0 0 1.548-3.116h-.053a3.434 3.434 0 0 1-2.755 1.26 3.39 3.39 0 0 1-3.457-3.583 4.012 4.012 0 0 1 4-4.158c2.395 0 3.872 1.945 3.872 4.934a7.39 7.39 0 0 1-2.017 5.49 5.837 5.837 0 0 1-3.4 1.567 7.314 7.314 0 0 1-1.46.09zm.577-6.734a2.252 2.252 0 0 0 2.25 2.485 2.618 2.618 0 0 0 2.3-1.224 1.042 1.042 0 0 0 .145-.576c0-2-.738-3.53-2.394-3.53-1.347.002-2.3 1.19-2.3 2.845zM474.212 250.923a3.344 3.344 0 0 1 2.323-3.133l-.018-.055a2.9 2.9 0 0 1-1.854-2.628c0-1.855 1.566-3.115 3.62-3.115 2.267 0 3.4 1.422 3.4 2.88a2.97 2.97 0 0 1-1.928 2.737v.054a3.244 3.244 0 0 1 2.36 3.024c0 2.036-1.747 3.4-3.98 3.4-2.446.004-3.923-1.455-3.923-3.165zm6.3-.072c0-1.422-.99-2.106-2.576-2.556a2.542 2.542 0 0 0-2.106 2.413 2.164 2.164 0 0 0 2.34 2.232 2.118 2.118 0 0 0 2.345-2.09zm-4.355-5.85c0 1.17.883 1.8 2.233 2.16a2.3 2.3 0 0 0 1.782-2.124 1.82 1.82 0 0 0-1.98-1.91 1.86 1.86 0 0 0-2.035 1.874z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M579.41 272.074a5.3 5.3 0 0 0 2.592.738c2.034 0 2.664-1.3 2.646-2.268-.018-1.64-1.494-2.34-3.025-2.34h-.882v-1.19h.883c1.152 0 2.61-.594 2.61-1.98 0-.936-.593-1.764-2.05-1.764a4.3 4.3 0 0 0-2.342.774l-.413-1.152a5.556 5.556 0 0 1 3.06-.9c2.305 0 3.35 1.368 3.35 2.79a2.908 2.908 0 0 1-2.16 2.756v.035a3.05 3.05 0 0 1 2.61 3.007c0 1.873-1.46 3.512-4.267 3.512a5.948 5.948 0 0 1-3.043-.792zM595.863 262.19v1.043l-5.1 10.66h-1.64l5.078-10.354v-.04h-5.72v-1.315zM605.1 262.19v1.043l-5.1 10.66h-1.64l5.078-10.354v-.04h-5.725v-1.315zM614.33 262.19v1.043l-5.1 10.66h-1.63l5.078-10.354v-.04h-5.726v-1.315z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M678.392 110.355h-4.465l-.45 3.007a6.233 6.233 0 0 1 .954-.072 4.945 4.945 0 0 1 2.52.63 3.337 3.337 0 0 1 1.676 3.007 4.06 4.06 0 0 1-4.357 4 5.73 5.73 0 0 1-2.918-.72l.4-1.206a5.24 5.24 0 0 0 2.5.65 2.582 2.582 0 0 0 2.772-2.54c-.018-1.513-1.026-2.593-3.367-2.593a12.1 12.1 0 0 0-1.62.126l.756-5.617h5.6zM687.32 110.14a5.72 5.72 0 0 0-1.19.07 4.756 4.756 0 0 0-4.068 4.16h.054a3.567 3.567 0 0 1 6.356 2.43 3.913 3.913 0 0 1-3.89 4.124c-2.5 0-4.14-1.944-4.14-4.987a7.36 7.36 0 0 1 1.98-5.276 6.38 6.38 0 0 1 3.745-1.728 7.748 7.748 0 0 1 1.152-.09zm-.45 6.75a2.378 2.378 0 0 0-2.413-2.682 2.606 2.606 0 0 0-2.27 1.44 1.348 1.348 0 0 0-.18.7c.037 1.928.92 3.35 2.576 3.35 1.368.002 2.286-1.133 2.286-2.807zM697.65 114.75c0 3.977-1.475 6.174-4.068 6.174-2.287 0-3.835-2.142-3.87-6.013 0-3.925 1.69-6.085 4.068-6.085 2.467 0 3.87 2.196 3.87 5.924zm-6.355.178c0 3.043.936 4.772 2.377 4.772 1.62 0 2.394-1.89 2.394-4.88 0-2.88-.738-4.77-2.376-4.77-1.39 0-2.39 1.692-2.39 4.878zM702.546 110.5h-.036l-2.034 1.1-.307-1.206 2.556-1.368h1.35v11.7h-1.53z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M803.78 420.227v-.973l1.243-1.206c2.99-2.845 4.34-4.358 4.357-6.122a2.087 2.087 0 0 0-2.322-2.286 3.985 3.985 0 0 0-2.485.99l-.5-1.116a5.135 5.135 0 0 1 3.314-1.19 3.294 3.294 0 0 1 3.583 3.4c0 2.162-1.567 3.908-4.033 6.285l-.937.863v.036h5.258v1.314zM820.793 414.25c0 3.978-1.477 6.175-4.07 6.175-2.286 0-3.834-2.143-3.87-6.014 0-3.925 1.692-6.085 4.07-6.085 2.466 0 3.87 2.196 3.87 5.924zm-6.356.18c0 3.042.936 4.77 2.376 4.77 1.622 0 2.395-1.89 2.395-4.88 0-2.88-.738-4.77-2.376-4.77-1.387 0-2.395 1.692-2.395 4.88zM830.026 414.25c0 3.978-1.476 6.175-4.07 6.175-2.286 0-3.834-2.143-3.87-6.014 0-3.925 1.692-6.085 4.07-6.085 2.466 0 3.87 2.196 3.87 5.924zm-6.356.18c0 3.042.936 4.77 2.377 4.77 1.62 0 2.394-1.89 2.394-4.88 0-2.88-.737-4.77-2.375-4.77-1.386 0-2.395 1.692-2.395 4.88zM834.92 410h-.035l-2.034 1.1-.306-1.206 2.557-1.37h1.35v11.7h-1.53z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M901.69 502.276a6.685 6.685 0 0 0 1.28-.053 4.414 4.414 0 0 0 2.448-1.135 5.137 5.137 0 0 0 1.548-3.115h-.054a3.43 3.43 0 0 1-2.755 1.26 3.39 3.39 0 0 1-3.457-3.583 4.013 4.013 0 0 1 4-4.16c2.395 0 3.87 1.946 3.87 4.935a7.4 7.4 0 0 1-2.015 5.49 5.842 5.842 0 0 1-3.4 1.567 7.31 7.31 0 0 1-1.46.09zm.577-6.734a2.25 2.25 0 0 0 2.25 2.485 2.618 2.618 0 0 0 2.3-1.224 1.048 1.048 0 0 0 .145-.576c0-2-.738-3.53-2.395-3.53-1.346.003-2.3 1.19-2.3 2.845zM910.925 502.276a6.678 6.678 0 0 0 1.278-.053 4.414 4.414 0 0 0 2.448-1.135 5.133 5.133 0 0 0 1.55-3.115h-.054a3.43 3.43 0 0 1-2.754 1.26 3.39 3.39 0 0 1-3.457-3.583 4.012 4.012 0 0 1 4-4.16c2.394 0 3.87 1.946 3.87 4.935a7.4 7.4 0 0 1-2.016 5.49 5.837 5.837 0 0 1-3.4 1.567 7.3 7.3 0 0 1-1.46.09zm.576-6.734a2.25 2.25 0 0 0 2.25 2.485 2.62 2.62 0 0 0 2.306-1.224 1.048 1.048 0 0 0 .144-.576c0-2-.738-3.53-2.394-3.53-1.35.003-2.306 1.19-2.306 2.845zM919.1 500.422a3.343 3.343 0 0 1 2.322-3.133l-.018-.056a2.9 2.9 0 0 1-1.854-2.628c0-1.855 1.566-3.115 3.62-3.115 2.268 0 3.4 1.423 3.4 2.882a2.97 2.97 0 0 1-1.926 2.736v.055a3.245 3.245 0 0 1 2.356 3.025c0 2.035-1.746 3.4-3.98 3.4-2.448.003-3.92-1.456-3.92-3.166zm6.3-.072c0-1.423-.99-2.107-2.575-2.557a2.542 2.542 0 0 0-2.106 2.413 2.164 2.164 0 0 0 2.34 2.232 2.117 2.117 0 0 0 2.34-2.088zm-4.36-5.85c0 1.17.883 1.8 2.232 2.16a2.305 2.305 0 0 0 1.784-2.124 1.82 1.82 0 0 0-1.98-1.91 1.862 1.862 0 0 0-2.036 1.874z"/>
+                          </g>
+                          <g>
+                            <path class="text" d="M384.7 24.356a10.668 10.668 0 0 1 7.964-3.2q6.47 0 9.46 4.29a9.343 9.343 0 0 1 1.776 4.834h-5.414a7.363 7.363 0 0 0-1.326-2.812 5.877 5.877 0 0 0-8.85.694 11.63 11.63 0 0 0-1.67 6.74q0 4.362 1.76 6.532a5.523 5.523 0 0 0 4.48 2.17 5.074 5.074 0 0 0 4.247-1.863 8.183 8.183 0 0 0 1.342-3.005h5.378a11.674 11.674 0 0 1-3.557 6.89 10.348 10.348 0 0 1-7.33 2.655 11 11 0 0 1-8.693-3.586q-3.165-3.6-3.165-9.88-.002-6.783 3.598-10.458zM412.938 47.56h-5.01V21.65h5.01zM422.816 28.4v11.548a6.082 6.082 0 0 0 .385 2.46 2.66 2.66 0 0 0 2.677 1.46 3.494 3.494 0 0 0 3.5-2.074 7.532 7.532 0 0 0 .49-2.97V28.4h5.08v19.16h-4.87v-2.707c-.046.058-.162.234-.35.527a3.51 3.51 0 0 1-.665.773 6.976 6.976 0 0 1-2.27 1.442 7.718 7.718 0 0 1-2.568.386q-4.242 0-5.715-3.057a11.738 11.738 0 0 1-.824-4.975V28.4zM456.174 30.7a11.013 11.013 0 0 1 2.15 7.03 12.32 12.32 0 0 1-2.12 7.4 7.7 7.7 0 0 1-9.753 1.987 7.642 7.642 0 0 1-1.872-1.97v2.413h-4.94V21.685h5.01V30.9a7.336 7.336 0 0 1 2.106-2.04 6.29 6.29 0 0 1 3.467-.878 7.16 7.16 0 0 1 5.954 2.718zm-4.187 11.672a7.1 7.1 0 0 0 1.08-4.113 9.21 9.21 0 0 0-.53-3.376 3.7 3.7 0 0 0-3.722-2.532 3.758 3.758 0 0 0-3.775 2.48 9.223 9.223 0 0 0-.532 3.41 7.1 7.1 0 0 0 1.1 4.077 3.773 3.773 0 0 0 3.35 1.616 3.475 3.475 0 0 0 3.03-1.562zM489.4 21.65h7.79v25.91h-5.044V30.034q0-.756.017-2.118t.018-2.1l-4.91 21.744h-5.262l-4.875-21.745q0 .74.017 2.1t.018 2.118V47.56h-5.045V21.65H480l4.717 20.372zM514.28 28.788a7.79 7.79 0 0 1 3.312 2.834 9.427 9.427 0 0 1 1.526 3.96 24.436 24.436 0 0 1 .165 3.8h-13.955a4.6 4.6 0 0 0 2 4.044 5.1 5.1 0 0 0 2.762.72 3.888 3.888 0 0 0 3.813-2.2h5.114a6.246 6.246 0 0 1-1.857 3.463 9.31 9.31 0 0 1-7.208 2.8 10.447 10.447 0 0 1-6.75-2.358q-2.922-2.358-2.923-7.67 0-4.98 2.64-7.637a9.238 9.238 0 0 1 6.85-2.656 10.9 10.9 0 0 1 4.51.898zm-7.494 4.327a5.207 5.207 0 0 0-1.335 2.966h8.632a4.175 4.175 0 0 0-1.334-3.026 4.39 4.39 0 0 0-2.972-1.033 3.975 3.975 0 0 0-2.99 1.095zM545.723 28.47a5.57 5.57 0 0 1 2.232 1.722 5.514 5.514 0 0 1 1.09 2.46 17.03 17.03 0 0 1 .176 2.83l-.034 12.078h-5.133v-12.2a4 4 0 0 0-.352-1.793 2.5 2.5 0 0 0-2.46-1.336 2.88 2.88 0 0 0-2.865 1.724 5.4 5.4 0 0 0-.4 2.2V47.56h-5.045V36.15a6.39 6.39 0 0 0-.352-2.477 2.454 2.454 0 0 0-2.478-1.39 2.958 2.958 0 0 0-2.883 1.39 5.34 5.34 0 0 0-.4 2.355V47.56h-5.08V28.435h4.863v2.794a8.055 8.055 0 0 1 1.757-2.127 6.96 6.96 0 0 1 7.33-.16 5.635 5.635 0 0 1 1.653 2.3 6.368 6.368 0 0 1 2.443-2.477 7.45 7.45 0 0 1 3.446-.79 6.677 6.677 0 0 1 2.493.494zM570.187 30.7a11.018 11.018 0 0 1 2.15 7.03 12.32 12.32 0 0 1-2.12 7.4 7.7 7.7 0 0 1-9.754 1.987 7.642 7.642 0 0 1-1.873-1.97v2.413h-4.94V21.685h5.01V30.9a7.336 7.336 0 0 1 2.106-2.04 6.29 6.29 0 0 1 3.467-.878 7.164 7.164 0 0 1 5.954 2.718zM566 42.374a7.1 7.1 0 0 0 1.08-4.113 9.21 9.21 0 0 0-.53-3.374 3.7 3.7 0 0 0-3.722-2.532 3.758 3.758 0 0 0-3.775 2.48 9.223 9.223 0 0 0-.532 3.41 7.1 7.1 0 0 0 1.1 4.077 3.774 3.774 0 0 0 3.35 1.618 3.474 3.474 0 0 0 3.03-1.564zM588.3 28.788a7.786 7.786 0 0 1 3.31 2.834 9.44 9.44 0 0 1 1.528 3.96 24.69 24.69 0 0 1 .165 3.8H579.35a4.6 4.6 0 0 0 2 4.044 5.09 5.09 0 0 0 2.76.72 3.89 3.89 0 0 0 3.815-2.2h5.114a6.26 6.26 0 0 1-1.858 3.463 9.31 9.31 0 0 1-7.208 2.8 10.447 10.447 0 0 1-6.75-2.358q-2.924-2.352-2.924-7.67 0-4.98 2.64-7.636a9.238 9.238 0 0 1 6.86-2.656 10.9 10.9 0 0 1 4.5.898zm-7.494 4.327a5.2 5.2 0 0 0-1.335 2.966h8.63a4.18 4.18 0 0 0-1.334-3.026 4.39 4.39 0 0 0-2.972-1.033 3.975 3.975 0 0 0-2.986 1.095zM606.48 27.95c.066.007.21.016.432.028v5.132c-.316-.035-.6-.058-.844-.07s-.445-.018-.6-.018q-3.024 0-4.06 1.97a7.654 7.654 0 0 0-.58 3.41v9.158h-5.046V28.4h4.78v3.34a10.62 10.62 0 0 1 2.023-2.62 5.5 5.5 0 0 1 3.656-1.177q.145 0 .24.008zM613.732 41.442a3.338 3.338 0 0 0 .69 1.9q.936 1 3.46 1a5.3 5.3 0 0 0 2.36-.44 1.472 1.472 0 0 0 .17-2.6 28.765 28.765 0 0 0-5.242-1.512 10.9 10.9 0 0 1-4.6-2.02 4.386 4.386 0 0 1-1.336-3.447 5.972 5.972 0 0 1 2.088-4.56 8.394 8.394 0 0 1 5.875-1.91 10.8 10.8 0 0 1 5.857 1.434q2.265 1.433 2.6 4.948h-5.01a2.97 2.97 0 0 0-.545-1.53 3.444 3.444 0 0 0-2.822-1.018 4.066 4.066 0 0 0-2.336.51 1.47 1.47 0 0 0-.7 1.2 1.31 1.31 0 0 0 .74 1.247 32.235 32.235 0 0 0 5.232 1.388 9.6 9.6 0 0 1 4.487 2.127 4.827 4.827 0 0 1 1.478 3.6 5.817 5.817 0 0 1-2.122 4.648q-2.123 1.8-6.56 1.8-4.528 0-6.685-1.907a6.2 6.2 0 0 1-2.158-4.86zM643.64 28.505a5.622 5.622 0 0 1 2.37 1.883 5.037 5.037 0 0 1 .964 2.208 27.49 27.49 0 0 1 .174 3.7V47.56h-5.115V35.892a5.18 5.18 0 0 0-.523-2.5 2.623 2.623 0 0 0-2.582-1.337 3.543 3.543 0 0 0-2.993 1.328 6.116 6.116 0 0 0-1.02 3.793V47.56H629.9V21.737h5.01v9.14a6.13 6.13 0 0 1 2.512-2.328 7.063 7.063 0 0 1 3-.66 8.12 8.12 0 0 1 3.218.615zM657.01 26.114h-5.08V21.49h5.08zm-5.08 2.286h5.08v19.16h-5.08zM677.975 30.456q2.343 2.478 2.343 7.277 0 5.063-2.29 7.717a7.434 7.434 0 0 1-5.9 2.654 6.182 6.182 0 0 1-3.822-1.142 7.37 7.37 0 0 1-1.628-1.846V55.1h-4.957V28.4h4.8v2.83a8.04 8.04 0 0 1 1.734-1.968 6.4 6.4 0 0 1 4-1.283 7.58 7.58 0 0 1 5.72 2.476zm-3.845 3.6a3.567 3.567 0 0 0-3.313-1.706 3.767 3.767 0 0 0-3.782 2.584 9.72 9.72 0 0 0-.533 3.48q0 3.342 1.792 4.694a4.113 4.113 0 0 0 2.522.79 3.666 3.666 0 0 0 3.224-1.616 7.484 7.484 0 0 0 1.11-4.307 7.483 7.483 0 0 0-1.02-3.915z"/>
+                          </g>
+                        </g>
+                        <g>
+                          <path class="text" d="M146.913 697.223c-.12-2.256-.265-4.97-.24-6.985h-.073c-.552 1.895-1.224 3.912-2.04 6.145l-2.86 7.847h-1.58l-2.616-7.705c-.77-2.28-1.416-4.367-1.872-6.287h-.048c-.048 2.016-.168 4.73-.313 7.153l-.43 6.936h-1.992l1.128-16.178h2.664l2.76 7.827c.672 1.992 1.224 3.767 1.632 5.447h.072c.408-1.63.984-3.408 1.7-5.447l2.88-7.827h2.664l1.008 16.178h-2.036zM153.823 698.9a3.722 3.722 0 0 0 3.985 4.032 7.636 7.636 0 0 0 3.215-.6l.36 1.512a9.38 9.38 0 0 1-3.863.72c-3.577 0-5.713-2.35-5.713-5.855s2.064-6.267 5.448-6.267c3.793 0 4.8 3.336 4.8 5.473a7.73 7.73 0 0 1-.073.984zm6.193-1.51c.024-1.345-.552-3.435-2.93-3.435-2.135 0-3.07 1.97-3.24 3.434zM164.67 695.854c0-1.2-.024-2.184-.1-3.145h1.873l.12 1.92h.048a4.272 4.272 0 0 1 3.84-2.185c1.61 0 4.1.96 4.1 4.946v6.936h-2.112v-6.7c0-1.873-.7-3.434-2.687-3.434a3 3 0 0 0-2.832 2.16 3.043 3.043 0 0 0-.144.985v6.984h-2.112z"/>
+                        </g>
+                        <path class="men" d="M81 674.427h40.455v40.455H81z"/>
+                        <g>
+                          <path class="text" d="M135.92 759.782l-4.1-16.178h2.208l1.92 8.185c.48 2.016.912 4.032 1.2 5.592h.047c.265-1.61.77-3.528 1.32-5.616l2.16-8.162h2.185l1.968 8.21c.456 1.92.89 3.84 1.128 5.544H146c.336-1.776.792-3.577 1.3-5.592l2.136-8.162h2.136l-4.585 16.178H144.8l-2.04-8.425a48.492 48.492 0 0 1-1.057-5.28h-.048a50.418 50.418 0 0 1-1.248 5.28l-2.3 8.425zM163.232 753.878c0 4.3-2.976 6.168-5.784 6.168-3.144 0-5.568-2.3-5.568-5.977 0-3.888 2.544-6.17 5.76-6.17 3.337 0 5.592 2.425 5.592 5.978zm-9.216.12c0 2.544 1.463 4.464 3.528 4.464 2.017 0 3.528-1.9 3.528-4.512 0-1.97-.984-4.465-3.48-4.465s-3.576 2.304-3.576 4.515zM165.9 751.31c0-1.2-.025-2.185-.1-3.145h1.847l.1 1.872h.072a4.008 4.008 0 0 1 3.648-2.136 3.434 3.434 0 0 1 3.288 2.33h.048a4.775 4.775 0 0 1 1.3-1.513 3.962 3.962 0 0 1 2.568-.816c1.536 0 3.815 1.01 3.815 5.04v6.842h-2.063v-6.576c0-2.232-.816-3.577-2.52-3.577a2.736 2.736 0 0 0-2.5 1.92 3.508 3.508 0 0 0-.17 1.055v7.177h-2.063v-6.96c0-1.848-.815-3.193-2.423-3.193a2.887 2.887 0 0 0-2.616 2.11 2.92 2.92 0 0 0-.167 1.033v7.01H165.9zM187.088 754.357a3.722 3.722 0 0 0 3.984 4.033 7.637 7.637 0 0 0 3.216-.6l.36 1.512a9.392 9.392 0 0 1-3.864.72c-3.576 0-5.713-2.352-5.713-5.856s2.066-6.265 5.45-6.265c3.792 0 4.8 3.337 4.8 5.474a7.93 7.93 0 0 1-.072.983zm6.192-1.51c.025-1.345-.55-3.434-2.928-3.434-2.136 0-3.073 1.97-3.24 3.433zM197.935 751.31c0-1.2-.024-2.185-.1-3.145h1.872l.12 1.92h.048a4.273 4.273 0 0 1 3.84-2.184c1.61 0 4.1.96 4.1 4.946v6.936h-2.11v-6.7c0-1.872-.7-3.433-2.69-3.433a3 3 0 0 0-2.832 2.16 3.043 3.043 0 0 0-.144.984v6.984h-2.113z"/>
+                        </g>
+                        <path class="women" d="M81 729.883h40.455v40.455H81z"/>
+                      </g>
+                    </svg>
+                </section>
+
+<!-- SVG bar chart code 1 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Static color declarations */
+                        .bar-chart { background-color: #ffffff; }
+
+                        .bar-chart .frame { stroke: #000000; }
+
+                        .bar-chart .text { fill: #000000; }
+
+                        .bar-chart .men { fill: #0074d9; }
+
+                        .bar-chart .women { fill: #ffdc00; }
+	                </code></pre>
+                </section>
+
+<!-- SVG bar chart code 2 -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Dynamic color when High Contrast mode is active */
+                        @media (-ms-high-contrast: active) {
+                          .bar-chart { background-color: window; }
+
+                          .bar-chart .frame { stroke: highlightText; }
+
+                          .bar-chart .text { fill: highlightText; }
+
+                          .bar-chart .men { fill: windowText; }
+
+                          .bar-chart .women { fill: highlight; }
+                        }
+	                </code></pre>
+                </section>
+
+<!-- SVG illustration -->
+                <section data-background-color="#ffffff">
+                    <img src="lib/img/gallardo.svg" />
+                </section>
+
+<!-- Media -->
+                <section>
+                    <h2>Media</h2>
+                    <p>Audio, video, interactives, etc.</p>
+                </section>
+
+<!-- Fancy tricks -->
+                <section>
+                    <h2>Fancy tricks</h2>
+                    <img style="margin-top: 0.25em;" src="lib/img/magic.svg" />
+                </section>
+
+<!-- Transparent tweet -->
+                <section
+                    data-background-image="lib/img/tweet-transparent-border.png"
+                    data-background-size="contain">
+                    <!-- <a href="https://twitter.com/_josephwatkins/status/783729617169444865"></a> -->
+                </section>
+
+<!-- Cut the mustard -->
+                <section data-background-color="#000000">
+                    <h2>Cut the Microsoft mustard</h2>
+                    <pre><code class="code-block" data-trim data-noescape>
+                        if (window.matchMedia("(-ms-high-contrast: active)").matches) {
+                          // We have support for IE 10+
+                        } else {
+                          // Load a good fallback experience
+                        }
+                    </code></pre>
+                </section>
+
+<!-- Related MQs -->
+                <section>
+                    <h2>Related Media Queries</h2>
+                </section>
+
+<!-- Inverted -->
+                <section>
+                    <h2>Inverted</h2>
+                </section>
+
+<!-- Inverted example 1 -->
+                <section
+                    data-background-image="lib/img/invert-1.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Inverted example 2 -->
+                <section
+                    data-background-image="lib/img/invert-2.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Inverted code -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Invert inverted images */
+                        @media (inverted-colors) {
+                          <span class="mark">img</span> {
+                            filter: invert(100%);
+                          }
+                        }
+                    </code></pre>
+                </section>
+
+<!-- Inverted example 3 -->
+                <section
+                    data-background-image="lib/img/invert-3.png"
+                    data-background-size="contain">
+                </section>
+
+<!-- Light Level -->
+                <section>
+                    <h2>Light Level</h2>
+                </section>
+
+<!-- Light level code -->
+                <section data-background-color="#000000">
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Boost contrast between elements */
+                        @media (light-level: <span class="mark">washed</span>) {
+                          html {
+                            background-color: #ffffff;
+                          }
+
+                          p {
+                            color: #000000;
+                            font-size: 120%;
+                          }
+                        }
+                    </code></pre>
+                </section>
+
+<!-- Fake Extension -->
+                <section>
+                    <img src="lib/img/washed-mode-sim.png" />
+                </section>
+
+<!-- How it works -->
+                <section>
+                    <h2>How it all works</h2>
+                </section>
+
+<!-- Testing -->
+                <section>
+                    <h2 class="biggo">Testing!</h2>
+                </section>
+
+<!-- Testing, testing, texting -->
+                <section>
+                    <h1>Testing!</h1>
+                    <h1>Testing!</h1>
+                    <h1>Testing!</h1>
+                </section>
+
+<!-- Thanks -->
+                <section>
+                    <h2>Thank you</h2>
+                </section>
+
+
+<!-- References -->
+                <section>
+                    <h2>References</h2>
+                </section>
+
+<!-- References 1 -->
+                <section>
+                    <ul>
+                        <li><a href="https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/">Building a more accessible web platform - Microsoft Edge DevBlog</a></li>
+                        <li><a href="http://www.gwhitworth.com/blog/2017/04/how-to-use-ms-high-contrast">Greg Whitworth - How to use -ms-high-contrast</a></li>
+                        <li><a href="https://developer.paciellogroup.com/blog/2016/12/windows-high-contrast-mode-the-limited-utility-of-ms-high-contrast/">Windows High Contrast Mode: the limited utility of -ms-high-contrast | The Paciello Group</a></li>
+                        <li><a href="http://adrianroselli.com/2012/08/css-background-images-high-contrast-mode.html">CSS Background Images & High Contrast Mode | Adrian Roselli</a></li>
+                    </ul>
+                </section>
+
+<!-- References 2 -->
+                <section>
+                    <ul>
+                        <li><a href="http://terrillthompson.com/blog/182">Windows High Contrast and Background Images | Terrill Thompson</a></li>
+                        <li><a href="https://css-tricks.com/accessible-svgs-high-contrast-mode/">Accessible SVGs in High Contrast Mode | CSS-Tricks</a></li>
+                        <li><a href="https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-websites/">How users change colours on websites - Gov.UK</a></li>
+                        <li><a href="https://drafts.csswg.org/mediaqueries-5/">Media Queries Level 5 - W3C Editor's Draft</a></li>
+                    </ul>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+                controls: false,
+                progress: false,
+                help: false,
+                history: true,
+                transition: 'none',
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
