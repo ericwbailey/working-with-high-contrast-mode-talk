@@ -258,44 +258,46 @@ body {
 }
 
 /* Bar chart */
-.bar-chart {
+.reveal .bar-chart {
   background-color: #ffffff;
 }
 
-.bar-chart .frame {
+.reveal .bar-chart .frame {
   stroke: #000000;
 }
 
-.bar-chart .text {
+.reveal .bar-chart .text {
   fill: #000000;
 }
 
-.bar-chart .men {
+.reveal .bar-chart .young {
   fill: #0074D9;
 }
 
-.bar-chart .women {
+.reveal .bar-chart .old {
   fill: #ffdc00;
 }
 
+
+
 @media (-ms-high-contrast: active) {
-  .bar-chart {
+  .reveal .bar-chart {
     background-color: window;
   }
 
-  .bar-chart .frame {
+  .reveal .bar-chart .frame {
     stroke: highlightText;
   }
 
-  .bar-chart .text {
+  .reveal .bar-chart .text {
     fill: highlightText;
   }
 
-  .bar-chart .men {
+  .reveal .bar-chart .young {
     fill: windowText;
   }
 
-  .bar-chart .women {
+  .reveal .bar-chart .old {
     fill: highlight;
   }
 }
