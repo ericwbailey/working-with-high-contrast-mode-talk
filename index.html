@@ -33,21 +33,28 @@
 
 <!-- About -->
                 <section>
-                    <h1>About me</h1>
+                    <h2>About me</h2>
 					<ul>
-						<li><a href="https://cantina.co/">UX Designer at Cantina in Boston, MA</a></li>
-                        <li><a href="http://empathyprompts.net/">Maintainer of Empathy Prompts</a></li>
-                        <li><a href="https://css-tricks.com/">Occasional author at CSS-Tricks</a></li>
-                        <li><a href="http://a11yproject.com/">Janitor at the The A11Y Project</a></li>
+						<li>UX Designer at Cantina in Boston, MA</li>
+                        <li>Occasional author at CSS-Tricks</li>
+                        <li>Janitor at the The A11Y Project</li>
+                        <li>Bad at JavaScript</li>
 					</ul>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>If you're ever in the area let me know coffee</li>
+                            <li>A11y Project has events, so if you have one submit it!</li>
+                        </ul>
+                    </aside>
                 </section>
 
 <!-- Head's up -->
                 <section>
-                    <h2>Head's up</h2>
+                    <h2>Head’s up</h2>
                     <ul>
-                        <li>High contrast</li>
                         <li>Video</li>
+                        <li>High contrast</li>
                         <li>Mild strobing</li>
                     </ul>
                 </section>
@@ -56,6 +63,12 @@
                 <section>
                     <h2>The ideal</h2>
                     <img style="height: 20vh; margin-top: 0.25em;" src="lib/img/rainbow.svg" />
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Let's imagine a pure perfect world of platonic academic purity</li>
+                        </ul>
+                    </aside>
                 </section>
 
 <!-- WCAG AA -->
@@ -77,7 +90,7 @@
 
 <!-- You don't know what you don't know -->
                 <section>
-                    <p>You don't know what you don't know</p>
+                    <p>You don’t know what you don’t know</p>
                     <h2>Keep your content open and interoperable</h2>
                 </section>
 
@@ -85,6 +98,28 @@
                 <section data-background-color="#000000">
                     <h2 style="color: #FFFF00;">High Contrast Mode</h2>
                     <p style="color: #807BFF;">A thing that exists</p>
+                </section>
+
+<!-- Where it works -->
+                <section>
+                    <h2>Where it works</h2>
+                </section>
+
+<!-- Windows 7 -->
+                <section>
+                    <h2>Windows 7+</h2>
+                </section>
+
+<!-- IE10+ -->
+                <section>
+                    <h2 style="font-size: 2.5em;">Internet Explorer 10+</h2>
+                    <h2>Microsoft Edge</h2>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Media quey trick to target IE10+: https://philipnewcomer.net/2014/04/target-internet-explorer-10-11-css/</li>
+                        </ul>
+                    </aside>
                 </section>
 
 <!-- Different themes -->
@@ -159,6 +194,12 @@
 <!-- People experiencing environmental -->
                 <section>
                     <h2>People experiencing an environmental condition</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li>Bright light and glare</li>
+                            <li>No light and dark UI</li>
+                        </ul>
+                    </aside>
                 </section>
 
 <!-- Tell me the numbers -->
@@ -187,31 +228,15 @@
                     </a>
                 </section>
 
-<!-- Where it works -->
+<!-- Chrome -->
                 <section>
-                    <h2>Where it works</h2>
-                </section>
-
-<!-- Windows 7 -->
-                <section>
-                    <h2>Windows 7+</h2>
-                </section>
-
-<!-- IE10+ -->
-                <section>
-                    <h2 style="font-size: 2.5em;">Internet Explorer 10+</h2>
-                    <h2>Microsoft Edge</h2>
-
-                    <aside class="notes">
-                        <ul>
-                            <li>Media quey trick to target IE10+: https://philipnewcomer.net/2014/04/target-internet-explorer-10-11-css/</li>
-                        </ul>
-                    </aside>
+                    <img src="lib/img/chrome-high-contrast-mode.png" />
                 </section>
 
 <!-- Chrome -->
                 <section>
-                    <img src="lib/img/chrome-high-contrast-mode.png" />
+                    <img style="width: 8em;" src="lib/img/firefox-logo.png" />
+                    <p>So close, and yet so far away</p>
                 </section>
 
 <!-- How it works -->
@@ -750,7 +775,7 @@
 
 <!-- Background images -->
                 <section>
-                    <h3>&ldquo;Don't use CSS background images to deliver content.&rdquo;</h3>
+                    <h3>&ldquo;Don’t use CSS background images to deliver content.&rdquo;</h3>
                     <p>—Terrill Thompson</p>
                 </section>
 
@@ -996,11 +1021,23 @@
                           // Load a good fallback experience
                         }
                     </code></pre>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Be careful about device sniffing</li>
+                            <li>Could be handy for environments like enterprise</li>
+                        </ul>
+                    </aside>
                 </section>
 
 <!-- Related MQs -->
                 <section>
                     <h2>Related Media Queries</h2>
+
+                    <aside class="notes">
+                        <li>CSS Media Queries Level 5 spec</li>
+                        <li>More featue queries on the horizon</li>
+                    </aside>
                 </section>
 
 <!-- Inverted -->
@@ -1067,7 +1104,7 @@
 
 <!-- How it works -->
                 <section>
-                    <h2>How it all works</h2>
+                    <h2>How to do it?</h2>
                 </section>
 
 <!-- Testing -->
@@ -1129,11 +1166,13 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+                backgroundTransition: 'none',
                 controls: false,
                 progress: false,
                 help: false,
                 history: true,
                 transition: 'none',
+                viewDistance: 5,
 
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
