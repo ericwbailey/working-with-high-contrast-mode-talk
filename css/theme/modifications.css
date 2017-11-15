@@ -1,34 +1,3 @@
-/* Local font */
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Assistant'), local('Assistant-Regular'),
-       url('../lib/fontassistant-v2-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../lib/fontassistant-v2-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* assistant-700 - latin */
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Assistant Bold'), local('Assistant-Bold'),
-       url('../lib/fontassistant-v2-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../lib/fontassistant-v2-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* assistant-800 - latin */
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Assistant ExtraBold'), local('Assistant-ExtraBold'),
-       url('../lib/fontassistant-v2-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../lib/fontassistant-v2-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-
 body {
     background-color: #eeeeee;
 }
@@ -147,6 +116,7 @@ body {
 }
 
 /* Form */
+.bad-example label,
 .example label {
     color: #dedede;
     cursor: pointer;
@@ -159,11 +129,13 @@ body {
     padding-bottom: 0.75em;
 }
 
+.bad-example label:hover input,
 .example label:hover input {
   box-shadow: 0px 10px 40px -12px #000000;
   transition: box-shadow 500ms ease-in-out;
 }
 
+.bad-example input,
 .example input {
     background-color: #ffffff;
     border: none;
@@ -176,6 +148,7 @@ body {
     transition: box-shadow 500ms ease-in-out;
 }
 
+.bad-example label .sample-input,
 .example label .sample-input {
   font-size: 0.7em;
   font-weight: normal;
