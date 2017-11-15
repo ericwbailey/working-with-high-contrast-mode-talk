@@ -108,6 +108,7 @@ body {
 
 
 /* EXAMPLE */
+.bad-example,
 .example {
     background-color: #5C6371;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
