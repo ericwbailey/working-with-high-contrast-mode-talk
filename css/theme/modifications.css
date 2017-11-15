@@ -179,8 +179,7 @@ body {
 
 @media (-ms-high-contrast: active) {
     .example .betterbutton {
-        background-color: buttonText;
-        color: window;
+        border: 0.15em solid buttonText;
     }
 }
 
