@@ -163,10 +163,8 @@ body {
 
 /* Button */
 .example .button {
-    box-shadow: rgb(41, 187, 255) 0px -3px 7px 0px inset;
-    background: linear-gradient(rgb(45, 171, 249) 5%, rgb(6, 136, 250) 100%) rgb(45, 171, 249);
+    background-color: rgb(6, 136, 250);
     border-radius: 0.5em;
-    border: 1px solid rgb(11, 14, 7);
     color: rgb(255, 255, 255);
     cursor: pointer;
     display: block;
@@ -175,18 +173,14 @@ body {
     margin: 0 auto;
     padding: 9px 23px;
     text-decoration: none;
-    text-shadow: rgb(38, 54, 102) 0px 1px 0px;
     text-align: center;
     width: 16ch;
 }
 
 @media (-ms-high-contrast: active) {
     .example .betterbutton {
-        background: transparent;
         background-color: buttonText;
-        border: buttonText;
         color: window;
-        text-shadow: none;
     }
 }
 
