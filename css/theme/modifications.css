@@ -232,7 +232,7 @@ body {
 
 @media screen and (-ms-high-contrast: active) {
   .toggled {
-    filter: brightness(10) contrast(10) saturate(5);
+    filter: brightness(3) contrast(3) saturate(2);
   }
 }
 
