@@ -180,6 +180,7 @@ body {
 @media (-ms-high-contrast: active) {
     .example .betterbutton {
         border: 0.15em solid buttonText;
+        color: buttonText;
     }
 }
 
