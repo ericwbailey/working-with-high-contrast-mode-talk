@@ -231,8 +231,8 @@ body {
 }
 
 @media screen and (-ms-high-contrast: active) {
-  .example .example-image {
-    filter: brightness(1) contrast(1) saturate(1.5);
+  .toggled {
+    filter: brightness(10) contrast(10) saturate(5);
   }
 }
 
