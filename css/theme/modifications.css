@@ -223,8 +223,9 @@ body {
     }
 
     .example .svg-icon-button {
-        fill: buttonFace;
-        border-color: buttonFace;
+        background: none;
+        border-color: buttonText;
+        fill: buttonText;
     }
 }
 
