@@ -233,7 +233,7 @@ body {
 
 @media screen and (-ms-high-contrast: active) {
   .toggled {
-    filter: brightness(3) contrast(3) saturate(2);
+    filter: brightness(1) contrast(1) saturate(1.5);
   }
 }
 
