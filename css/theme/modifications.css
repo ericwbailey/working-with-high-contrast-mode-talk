@@ -279,3 +279,58 @@ body {
     fill: highlight;
   }
 }
+
+/* Bar chart connection */
+.reveal .bar-chart-connection {
+  background-color: #ffffff;
+}
+
+.reveal .bar-chart-connection .connection-3g {
+  fill: #FFED94;
+}
+
+.reveal .bar-chart-connection .connection-4g {
+  fill: #E22E29;
+}
+
+.reveal .bar-chart-connection .connection-2g {
+  fill: #2998F3;
+}
+
+.reveal .bar-chart-connection .frame-dark {
+    fill: #ffffff;
+    stroke: #000000;
+}
+
+.reveal .bar-chart-connection .text-light,
+.reveal .bar-chart-connection .frame-light {
+    fill: #ffffff;
+}
+
+@media (-ms-high-contrast: active) {
+    .reveal .bar-chart-connection {
+      background-color: window;
+    }
+
+    .reveal .bar-chart-connection .connection-3g {
+      fill: #FFED94;
+    }
+
+    .reveal .bar-chart-connection .connection-4g {
+      fill: #E22E29;
+    }
+
+    .reveal .bar-chart-connection .connection-2g {
+      fill: #2998F3;
+    }
+
+    .reveal .bar-chart-connection .frame-dark {
+        fill: window;
+        stroke: windowText;
+    }
+
+    .reveal .bar-chart-connection .text-light,
+    .reveal .bar-chart-connection .frame-light {
+        fill: #ffffff;
+    }
+}
