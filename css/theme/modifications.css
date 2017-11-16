@@ -313,7 +313,7 @@ body {
     }
 
     .reveal .bar-chart-connection .connection-3g {
-      fill: #FFED94;
+      fill: highlight;
     }
 
     .reveal .bar-chart-connection .connection-4g {
@@ -321,7 +321,7 @@ body {
     }
 
     .reveal .bar-chart-connection .connection-2g {
-      fill: #2998F3;
+      fill: windowText;
     }
 
     .reveal .bar-chart-connection .frame-dark {
@@ -332,5 +332,9 @@ body {
     .reveal .bar-chart-connection .text-light,
     .reveal .bar-chart-connection .frame-light {
         fill: #ffffff;
+    }
+
+    .reveal .bar-chart-connection .text-light {
+        fill: windowText;
     }
 }
