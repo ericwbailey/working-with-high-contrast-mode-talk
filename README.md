@@ -20,8 +20,8 @@ This presentation was built with [reveal.js](http://lab.hakim.se/reveal-js/#/), 
 ### Viewing in your browser
 
 1. Clone or download this repository to your computer.
-    - Clone instructions: `git clone https://github.com/ericwbailey/high-contrast-mode-talk.git`
-    - [Repository download link](https://github.com/ericwbailey/high-contrast-mode-talk/archive/master.zip)
+    - Clone instructions: `git clone https://github.com/ericwbailey/working-with-high-contrast-mode-talk.git`
+    - [Repository download link](https://github.com/ericwbailey/working-with-high-contrast-mode-talk/archive/master.zip)
 1. Navigate to this repository's directory in your terminal.
 1. Install project dependencies via Node Package Manager (NPM): `npm install`
 1. Use the Grunt task manager to build and run the project: `grunt serve`
@@ -31,4 +31,4 @@ Navigate between slides by using the left and right arrows on your keyboard. Sli
 
 
 ## Issues
-Please feel free to [submit an issue](https://github.com/ericwbailey/high-contrast-mode-talk/issues) if you find an error. We're all in this together!
+Please feel free to [submit an issue](https://github.com/ericwbailey/working-with-high-contrast-mode-talk/issues) if you find an error. We're all in this together!
