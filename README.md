@@ -20,7 +20,7 @@ This presentation was built with [reveal.js](http://lab.hakim.se/reveal-js/#/), 
 ### Viewing in your browser
 
 1. Clone or download this repository to your computer.
-    - Clone instructions: `https://github.com/ericwbailey/high-contrast-mode-talk.git`
+    - Clone instructions: `git clone https://github.com/ericwbailey/high-contrast-mode-talk.git`
     - [Repository download link](https://github.com/ericwbailey/high-contrast-mode-talk/archive/master.zip)
 1. Navigate to this repository's directory in your terminal.
 1. Install project dependencies via Node Package Manager (NPM): `npm install`
