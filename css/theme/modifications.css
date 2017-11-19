@@ -39,19 +39,37 @@ body {
 
 
 /* HEADINGS */
-.reveal h1 {
-    font-weight: 800;
-    line-height: 1;
+.reveal .heading-ultra,
+.reveal .heading-primary,
+.reveal .heading-secondary,
+.reveal .heading-tertiary {
+  margin: 0 0 20px 0;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word;
 }
 
-.reveal h2 {
-    font-size: 3em;
-    font-weight: 800;
+.reveal .heading-ultra {
+    font-size: 5em;
 }
 
-.reveal h3 {
-    font-weight: 800;
+.reveal .heading-primary {
+  font-size: 3.77em;
+  text-shadow: none;
+  line-height: 1;
 }
+
+.reveal .heading-secondary {
+  font-size: 3em;
+}
+
+.reveal .heading-tertiary {
+  font-size: 1.55em;
+}
+
 
 /* IMAGES */
 .reveal section img {
@@ -102,10 +120,6 @@ body {
 
 
 /* SINGLE PURPOSE */
-.reveal .biggo {
-    font-size: 5em;
-}
-
 .reveal .light {
     font-weight: 400;
 }
