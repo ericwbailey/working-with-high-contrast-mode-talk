@@ -19,9 +19,12 @@
     width: auto;
 }
 
+
+/* BACKGROUND */
 body {
     background-color: #eeeeee;
 }
+
 
 /* CONTENT */
 .reveal,
@@ -68,6 +71,13 @@ body {
 
 .reveal .heading-tertiary {
   font-size: 1.55em;
+}
+
+
+/* LIST LINKS */
+.reveal ul li a:focus,
+.reveal ul li a:hover {
+    text-decoration: underline;
 }
 
 
