@@ -25,11 +25,13 @@
 		</script>
 	</head>
 	<body>
+        <h1 class="visuallyhidden">Working with High Contrast Mode</h1>
+
 		<div class="reveal">
 			<div class="slides">
 
 <!-- Title -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Title">
                     <img
                         alt="Working with High Contrast Mode. #a11yTOCamp. November 18, 2017"
                         style="width: 80vw;"
@@ -37,7 +39,7 @@
                 </section>
 
 <!-- About -->
-                <section>
+                <section aria-label="About me">
                     <h2>Hi there!</h2>
 					<ul>
 						<li>UX Designer at Cantina in Boston, MA</li>
@@ -54,7 +56,7 @@
                 </section>
 
 <!-- Head's up -->
-                <section>
+                <section aria-label="Content warning">
                     <h2>Head’s up</h2>
                     <ul>
                         <li>Video</li>
@@ -64,7 +66,7 @@
                 </section>
 
 <!-- The ideal -->
-                <section>
+                <section aria-label="Let's imagine">
                     <h2>The ideal</h2>
                     <img
                         alt="Rainbow"
@@ -79,7 +81,7 @@
                 </section>
 
 <!-- WCAG AA -->
-                <section>
+                <section aria-label="The ideal">
                     <h2 class="biggo">WCAG AA</h2>
 
                     <aside class="notes">
@@ -93,7 +95,7 @@
                 </section>
 
 <!-- We don't live in a perfect world -->
-                <section>
+                <section aria-label="The reality">
                     <h2>We don’t live in a perfect world</h2>
 
                     <aside class="notes">
@@ -106,7 +108,7 @@
                 </section>
 
 <!-- Grey and gray -->
-                <section>
+                <section aria-label="Failing contrast ratios">
                     <h2>Grey <span class="light shrink-20">(eh?)</span> and gray <span class="light shrink-20">(ah!)</span></h2>
                     <img
                         alt="Two gray squares, one light and one dark. The light gray square has a failing contrast ratio of 1.1, and the dark gray square has a failing contrast ratio of 2.8."
@@ -126,7 +128,7 @@
                 </section>
 
 <!-- The real world is complex -->
-                <section>
+                <section aria-label="Complications">
                     <h2>The real world is complicated</h2>
 
                     <aside class="notes">
@@ -139,7 +141,7 @@
                 </section>
 
 <!-- Irlen Syndrome -->
-                <section>
+                <section aria-label="Irlen Syndrome">
                     <h2>Irlen Syndrome</h2>
                     <p>Scotopic sensitivity</p>
 
@@ -154,7 +156,7 @@
                 </section>
 
 <!-- You don't know what you don't know -->
-                <section>
+                <section aria-label="Keep your content open">
                     <p>You don’t know what you don’t know</p>
                     <h2>Keep your content open and interoperable</h2>
 
@@ -167,7 +169,7 @@
                 </section>
 
 <!-- Aaron G -->
-                <section>
+                <section aria-label="Aaron Gustafson quote">
                         <p>It's important to recognise that experience is not a singular thing, our experience is not universal, not everyone accesses content the same way we do, on the same devices, on the same networks, in the same modalities we do.</p>
                         <p>And when we design the web in the way that we expereince it, we actually limit the way that other people experience it. We actually exclude the people that are not like us, and that's not great.</p>
                         <p><b>—Aaron Gustafson</b></p>
@@ -180,7 +182,7 @@
                 </section>
 
 <!-- High Contrast Mode -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="High Contrast Mode">
                     <h2 style="color: #FFFF00;">High Contrast Mode</h2>
                     <p style="color: #807BFF;">A thing that exists</p>
 
@@ -194,17 +196,17 @@
                 </section>
 
 <!-- Where it works -->
-                <section>
+                <section aria-label="Where it works">
                     <h2>Where it works</h2>
                 </section>
 
 <!-- Windows 7 -->
-                <section>
+                <section aria-label="Supported Operating Systems">
                     <h2>Windows 7+</h2>
                 </section>
 
 <!-- IE10+ -->
-                <section>
+                <section aria-label="Supported Browsers">
                     <h2 style="font-size: 2.25em;">Internet Explorer 10+</h2>
                     <h2>Microsoft Edge</h2>
 
@@ -216,12 +218,12 @@
                 </section>
 
 <!-- Different themes -->
-                <section>
+                <section aria-label="High Contrast Mode themes">
                     <h2>Different themes</h2>
                 </section>
 
 <!-- Mode screenshots -->
-                <section>
+                <section aria-label="Stock themes">
                     <img
                         alt="Screenshots of the 4 themes: High Contrast 1, High Contrast 2, High Contrast Black, High Contrast White"
                         src="lib/img/contrast-modes.png" />
@@ -237,6 +239,7 @@
 
 <!-- Example 1 -->
                 <section
+                    aria-label="Theme example 1"
                     data-background-image="lib/img/high-contrast-mode-1.png"
                     data-background-size="contain">
 
@@ -249,6 +252,7 @@
 
 <!-- Example 2 -->
                 <section
+                    aria-label="Theme example 2"
                     data-background-image="lib/img/high-contrast-mode-2.png"
                     data-background-size="contain">
 
@@ -261,6 +265,7 @@
 
 <!-- Example 3 -->
                 <section
+                    aria-label="Theme example 3"
                     data-background-image="lib/img/high-contrast-mode-black.png"
                     data-background-size="contain">
 
@@ -273,6 +278,7 @@
 
 <!-- Example 4 -->
                 <section
+                    aria-label="Theme example 4"
                     data-background-image="lib/img/high-contrast-mode-white.png"
                     data-background-size="contain">
 
@@ -284,7 +290,7 @@
                 </section>
 
 <!-- Custom themes -->
-                <section>
+                <section aria-label="Custom themes">
                     <h2>Custom themes</h2>
 
                     <aside class="notes">
@@ -296,6 +302,7 @@
 
 <!-- Hotdog -->
                 <section
+                    aria-label="Custom theme creation"
                     data-background-video="lib/img/hotdog.mov"
                     data-background-video-loop
                     data-background-video-muted
@@ -303,18 +310,18 @@
                 </section>
 
 <!-- Who it affects -->
-                <section>
+                <section aria-label="Who uses it">
                     <h2>Who uses it:</h2>
                 </section>
 
 <!-- Everyone -->
-                <section>
+                <section aria-label="Everyone">
                     <img style="height: 35vh; margin-bottom: -1em;" src="lib/img/point.svg" />
                     <h2 class="biggo">Everyone</h2>
                 </section>
 
 <!-- People experiencing biological -->
-                <section>
+                <section aria-label="Biological conditons">
                     <h2>People experiencing a biological condition</h2>
 
                     <aside class="notes">
@@ -325,7 +332,7 @@
                 </section>
 
 <!-- People experiencing environmental -->
-                <section>
+                <section aria-label="Environmental conditions">
                     <h2>People experiencing an environmental condition</h2>
 
                     <aside class="notes">
@@ -337,17 +344,17 @@
                 </section>
 
 <!-- Tell me the numbers -->
-                <section>
+                <section aria-label="How many?">
                     <h2>Tell me the numbers</h2>
                 </section>
 
 <!-- Nah -->
-                <section>
+                <section aria-label="Nah">
                     <h2 class="biggo">Nah</h2>
                 </section>
 
 <!-- Garden tweet -->
-                <section>
+                <section aria-label="Shaun Finglas tweet">
                     <a href="https://twitter.com/ShaunFinglas/status/868814968753463296">
                         <img
                             alt="Tweet by Shaun Finglas: Protip - max brightness and high contrast mode enabled allows you to use your laptop in the garden. Looks ugly but functional."
@@ -356,7 +363,7 @@
                 </section>
 
 <!-- WCAG -->
-                <section>
+                <section aria-label="Applicable WCAG section">
                     <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation">
                         <h1 class="biggo">1.4.8</h1>
                         <h3>Visual Presentation</h3>
@@ -372,7 +379,7 @@
                 </section>
 
 <!-- Firefox -->
-                <section>
+                <section aria-label="Firefox">
                     <img
                         alt="Firefox logo"
                         style="width: 8em;"
@@ -381,7 +388,7 @@
                 </section>
 
 <!-- Chrome -->
-                <section>
+                <section aria-label="Chrome">
                     <img
                         alt="Screenshot of Chrome prompting the user to install a high contrast extension when High Contrast Mode is enabled."
                         src="lib/img/chrome-high-contrast-mode.png" />
@@ -395,7 +402,7 @@
                 </section>
 
 <!-- How it works -->
-                <section>
+                <section aria-label="How it works">
                     <h2>How it works</h2>
 
                     <aside class="notes">
@@ -406,7 +413,7 @@
                 </section>
 
 <!-- Semantic HTML -->
-                <section>
+                <section aria-label="Semantic HTML">
                     <h2 class="biggo">Semantic<br />
                         HTML</h2>
 
@@ -419,7 +426,7 @@
                 </section>
 
 <!-- How it works -->
-                <section>
+                <section aria-label="Using it">
                     <h2>Using it</h2>
 
                     <aside class="notes">
@@ -431,7 +438,7 @@
                 </section>
 
 <!-- Code 1 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Three Media Queries">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Targets the High Contrast Black theme: */
                         @media (-ms-high-contrast: white-on-black) { }
@@ -446,7 +453,7 @@
                 </section>
 
 <!-- Code 2 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Only use -ms-high-contrast: active">
                     <pre><code class="code-block" data-trim data-noescape>
                         <s style="opacity: 0.5;">/* Targets the High Contrast Black theme: */
                         @media (-ms-high-contrast: white-on-black) { }
@@ -460,12 +467,12 @@
                 </section>
 
 <!-- CSS2 system colors -->
-                <section>
+                <section aria-label="CSS2 System Colors">
                     <h2 class="line-height-tight">CSS2<br />System Colors</h2>
                 </section>
 
 <!-- CSS2 color keywords table 1 -->
-                <section>
+                <section aria-label="CSS2 System Color keywords table">
                     <table class="table-feature">
                         <tr>
                             <td>ActiveBorder</td>
@@ -522,14 +529,14 @@
                 </section>
 
 <!-- Bad actors -->
-                <section>
+                <section aria-label="Bad actors">
                     <img
-                        alt="Screenshot of a fake Windows 95 error message that reads, 'Windows requires additional information before it can continue displaying this web page. Please provide your credit card number.'."
+                        alt="A fake Windows 95 error message that reads, 'Windows requires additional information before it can continue displaying this web page. Please provide your credit card number.'. Screenshot."
                         src="lib/img/windows-error.png" />
                 </section>
 
 <!-- High contrast keywords -->
-                <section>
+                <section aria-label="High Contrast Mode keywords">
                     <h2>High Contrast Mode Keywords</h2>
 
                     <aside class="notes">
@@ -540,7 +547,7 @@
                 </section>
 
 <!-- High contrast keywords table -->
-                <section>
+                <section aria-label="CSS2 System Color keywords table">
                     <table class="table-feature">
                         <tr>
                             <td>ActiveBorder</td>
@@ -588,48 +595,48 @@
                 </section>
 
 <!-- High contrast keywords table, faded -->
-                <section>
+                <section aria-label="High Contrast Mode keywords table">
                     <table class="table-feature">
                         <tr>
-                            <td class="faded-feature">ActiveBorder</td>
-                            <td class="faded-feature">ActiveCaption</td>
-                            <td class="faded-feature">AppWorkspace</td>
-                            <td class="faded-feature">Background</td>
+                            <td class="faded-feature">ActiveBorder<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">ActiveCaption<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">AppWorkspace<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">Background<span class="visuallyhidden">, deprecated</span></td>
                         </tr>
                         <tr>
                             <td>ButtonFace</td>
-                            <td class="faded-feature">ButtonHighlight</td>
-                            <td class="faded-feature">ButtonShadow</td>
-                            <td class="faded-feature">ButtonText</td>
+                            <td class="faded-feature">ButtonHighlight<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">ButtonShadow<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">ButtonText<span class="visuallyhidden">, deprecated</span></td>
                         </tr>
                         <tr>
-                            <td class="faded-feature">CaptionText</td>
-                            <td class="faded-feature">GrayText</td>
+                            <td class="faded-feature">CaptionText<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">GrayText<span class="visuallyhidden">, deprecated</span></td>
                             <td>Highlight</td>
                             <td>HighlightText</td>
                         </tr>
                         <tr>
-                            <td class="faded-feature">InactiveBorder</td>
-                            <td class="faded-feature">InactiveCaption</td>
-                            <td class="faded-feature">InactiveCaptionText</td>
-                            <td class="faded-feature">InfoBackground</td>
+                            <td class="faded-feature">InactiveBorder<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">InactiveCaption<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">InactiveCaptionText<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">InfoBackground<span class="visuallyhidden">, deprecated</span></td>
                         </tr>
                         <tr>
-                            <td class="faded-feature">InfoText</td>
-                            <td class="faded-feature">Menu</td>
-                            <td class="faded-feature">MenuText</td>
-                            <td class="faded-feature">Scrollbar</td>
+                            <td class="faded-feature">InfoText<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">Menu<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">MenuText<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">Scrollbar<span class="visuallyhidden">, deprecated</span></td>
                         </tr>
                         <tr>
-                            <td class="faded-feature">ThreeDDarkShadow</td>
-                            <td class="faded-feature">ThreeDFace</td>
-                            <td class="faded-feature">ThreeDHighlight</td>
-                            <td class="faded-feature">ThreeDLightShadow</td>
+                            <td class="faded-feature">ThreeDDarkShadow<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">ThreeDFace<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">ThreeDHighlight<span class="visuallyhidden">, deprecated</span></td>
+                            <td class="faded-feature">ThreeDLightShadow<span class="visuallyhidden">, deprecated</span></td>
                         </tr>
                         <tr>
-                            <td class="faded-feature">ThreeDShadow</td>
+                            <td class="faded-feature">ThreeDShadow<span class="visuallyhidden">, deprecated</span></td>
                             <td>Window</td>
-                            <td class="faded-feature">WindowFrame</td>
+                            <td class="faded-feature">WindowFrame<span class="visuallyhidden">, deprecated</span></td>
                             <td>WindowText</td>
                         </tr>
                     </table>
@@ -643,7 +650,7 @@
                 </section>
 
 <!-- Remaining features table 1 -->
-                <section>
+                <section aria-label="High Contrast Mode Keyword description table">
                     <table>
                         <thead>
                             <tr>
@@ -687,7 +694,7 @@
                 </section>
 
 <!-- Remaining features table 2 -->
-                <section>
+                <section aria-hidden="true">
                     <table>
                         <thead>
                             <tr>
@@ -725,7 +732,7 @@
                 </section>
 
 <!-- Remaining features table 3 -->
-                <section>
+                <section aria-hidden="true">
                     <table>
                         <thead>
                             <tr>
@@ -763,7 +770,7 @@
                 </section>
 
 <!-- Remaining features table 4 -->
-                <section>
+                <section aria-hidden="true">
                     <table>
                         <thead>
                             <tr>
@@ -801,7 +808,7 @@
                 </section>
 
 <!-- Remaining features table 5 -->
-                <section>
+                <section aria-hidden="true">
                     <table>
                         <thead>
                             <tr>
@@ -839,13 +846,13 @@
                 </section>
 
 <!-- Isn't this limited -->
-                <section>
+                <section aria-label="Isn't this limited?">
                     <h2 style="font-size: 2em;" class="light">&ldquo;Isn’t this limited?&rdquo;</h2>
                     <h2>Yes, that's the point!</h2>
                 </section>
 
 <!-- Hugo's tweet -->
-                <section>
+                <section aria-label="Hugo Giraudel tweet">
                     <a href="https://twitter.com/HugoGiraudel/status/877123359418576896">
                         <img
                             alt="Tweet by Hugo Giraudel: High contrast mode is not about design anymore, but strict usability. You should aim for highest readability, not color aesthetics."
@@ -854,7 +861,7 @@
                 </section>
 
 <!-- Keep it predictable -->
-                <section>
+                <section aria-label="Keep it predictable">
                     <p>Keep it predictable</p>
                     <h2>Gentle nudges, not complete overhauls</h2>
 
@@ -867,7 +874,7 @@
                 </section>
 
 <!-- How it works -->
-                <section>
+                <section aria-label="Using it">
                     <h2>Using it</h2>
 
                     <aside class="notes">
@@ -879,7 +886,7 @@
                 </section>
 
 <!-- Code 3 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad input example">
                     <div class="bad-example">
                         <label for="example-1">
                             Your name
@@ -897,7 +904,7 @@
                 </section>
 
 <!-- Code 4 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad input example, label moved">
                     <div class="bad-example">
                         <label for="example-1">
                             Your name
@@ -915,7 +922,7 @@
                 </section>
 
 <!-- Code 5a -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad input example, High Contrast Mode Media Query activated">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Apply styling when High Contrast Mode is active */
                         @media (-ms-high-contrast: active) {
@@ -929,8 +936,9 @@
                         </label>
                     </div>
                 </section>
+
 <!-- Code 5b -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad input example, colored border added">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Apply styling when High Contrast Mode is active */
                         @media (-ms-high-contrast: <span class="mark">active</span>) {
@@ -958,7 +966,7 @@
                 </section>
 
 <!-- Code 6 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad input example, High Contrast Mode color keyword added">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Apply styling when High Contrast Mode is active */
                         @media (-ms-high-contrast: active) {
@@ -986,7 +994,7 @@
                 </section>
 
 <!-- Code 7a -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad button example">
                     <pre><code class="code-block" data-trim data-noescape>
                         &lt;span class="button" role="button" tabindex="0"&gt;
                           Download Pizza
@@ -1007,7 +1015,7 @@
                 </section>
 
 <!-- Code 7b -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad button example, High Contrast Mode Media Query activated">
                     <pre><code class="code-block" data-trim data-noescape>
                         &lt;span class="button" role="button" tabindex="0"&gt;
                           Download Pizza
@@ -1032,7 +1040,7 @@
                 </section>
 
 <!-- Code 8 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Bad button example, High Contrast Mode color keywords added">
                     <pre><code class="code-block" data-trim data-noescape>
                         &lt;span class="button" role="button" tabindex="0"&gt;
                           Download Pizza
@@ -1064,23 +1072,23 @@
                 </section>
 
 <!-- Content considerations -->
-                <section>
+                <section aria-label="Content considerations">
                     <h2>Content considerations</h2>
                 </section>
 
 <!-- Background images -->
-                <section>
+                <section aria-label="Background images">
                     <h2>Background images</h2>
                 </section>
 
 <!-- Background images -->
-                <section>
+                <section aria-label="Terrill Thompson quote">
                     <h3>&ldquo;Don’t use CSS background images to deliver content.&rdquo;</h3>
                     <p>—Terrill Thompson</p>
                 </section>
 
 <!-- Background images -->
-                <section>
+                <section aria-label="Microsoft Edge adding backgrounds over text">
                     <img
                         alt="Screenshot of Microsoft Edge on Windows 10 running in High Contrast Mode. Edge has generated a background when text is placed over background images to help legibility."
                         src="lib/img/xbox-after.png" />
@@ -1094,7 +1102,7 @@
                 </section>
 
 <!-- Raster -->
-                <section>
+                <section aria-label="Raster images">
                     <h2>Raster images</h2>
                     <p>JPEGs, PNGs, GIFs, etc.</p>
 
@@ -1108,7 +1116,7 @@
                 </section>
 
 <!-- Sat -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Code example for contrast boosting raster images">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Slightly enhance important images */
                         @media screen and (-ms-high-contrast: active) {
@@ -1127,7 +1135,7 @@
                 </section>
 
 <!-- Enhance example -->
-                <section>
+                <section aria-label="Content considerations" aria-label="Demo for contrast boosting raster images">
                     <img
                         alt="Photo of Vice President Biden meeting Biden the Golden Retriever."
                         id="toggle-example"
@@ -1146,7 +1154,7 @@
                 </section>
 
 <!-- SVG -->
-                <section>
+                <section aria-label="SVG">
                     <h2>SVG</h2>
                     <p>Scalable Vector Graphics</p>
 
@@ -1160,7 +1168,7 @@
                 </section>
 
 <!-- Static icons -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Non interactive SVG icon example">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Only applies to inline SVG */
                         /* Non-interactive icons */
@@ -1181,7 +1189,7 @@
                 </section>
 
 <!-- Dynamic icons -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Interactive SVG icon example">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Interactive icons */
                         @media screen and (-ms-high-contrast: active) {
@@ -1204,7 +1212,7 @@
                 </section>
 
 <!-- SVG bar chart 1 -->
-                <section>
+                <section aria-label="Example SVG chart">
                     <svg class="bar-chart" xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 1000 760">
                       <title>
                         Club Membership
@@ -1300,7 +1308,7 @@
                 </section>
 
 <!-- SVG bar chart code 1 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="SVG chart styling with CSS">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Static color declarations */
                         .bar-chart { background-color: #ffffff; }
@@ -1316,7 +1324,7 @@
                 </section>
 
 <!-- SVG bar chart code 2 -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="SVG chart styling with CSS using High Contrast Mode color keywords">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Dynamic color when High Contrast mode is active */
                         @media (-ms-high-contrast: active) {
@@ -1333,7 +1341,7 @@
                 </section>
 
 <!-- SVG bar chart 2 -->
-                <section>
+                <section aria-label="Example SVG chart, again">
                     <svg class="bar-chart" xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 1000 760">
                       <title>
                         Club Membership
@@ -1429,7 +1437,7 @@
                 </section>
 
 <!-- SVG illustration -->
-                <section data-background-color="#ffffff">
+                <section data-background-color="#ffffff" aria-label="SVG illustrations">
                     <img
                         alt="A detailed vector illustration of a Gallardo sportscar."
                         src="lib/img/gallardo.svg" />
@@ -1437,7 +1445,7 @@
                 </section>
 
 <!-- Media -->
-                <section>
+                <section aria-label="Media">
                     <h2>Media</h2>
                     <p>Audio, video, etc.</p>
 
@@ -1451,16 +1459,19 @@
                 </section>
 
 <!-- Fancy tricks -->
-                <section>
+                <section aria-label="Fancy tricks">
                     <h2>Fancy tricks</h2>
                     <img style="margin-top: 0.25em;" src="lib/img/magic.svg" />
                 </section>
 
 <!-- Transparent tweet -->
                 <section
+                    aria-label="Tweet by Joseph Watkins"
                     data-background-image="lib/img/tweet-transparent-border.png"
                     data-background-size="contain">
-                    <!-- <a href="https://twitter.com/_josephwatkins/status/783729617169444865"></a> -->
+                    <p class="visuallyhidden">
+                        <a href="https://twitter.com/_josephwatkins/status/783729617169444865">Adding a transparent border to buttons that have no borders can help make the buttons more obvious in high contrast mode.</a>
+                    </p>
 
                     <aside class="notes">
                         <ul>
@@ -1471,7 +1482,7 @@
                 </section>
 
 <!-- Cut the mustard -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-label="Cut the Microsoft Mustard">
                     <h2>Cut the Microsoft mustard</h2>
                     <pre><code class="code-block" data-trim data-noescape>
                         if (window.matchMedia("(-ms-high-contrast: active)").matches) {
@@ -1491,18 +1502,16 @@
                 </section>
 
 <!-- Related MQs -->
-                <section>
+                <section aria-label="Upcoming related Media Queries">
                     <h2>Related Media Queries</h2>
 
                     <aside class="notes">
                         <li>CSS Media Queries Level 5 spec</li>
-                        <li>In a way, HCM was ahead of the curve</li>
-                        <li>More featue queries on the horizon</li>
                     </aside>
                 </section>
 
-<!-- Inverted -->
-                <section>
+<!-- Inspirational quote -->
+                <section aria-label="Responsive Design and Inclusive Design">
                     <h3 style="margin-bottom: 1.25em;">Responsive Design is adapting design to an unknown browser.</h3>
                     <h3>Inclusive Design is adapting design to an unknown user.</h3>
 
@@ -1513,24 +1522,26 @@
                 </section>
 
 <!-- Inverted -->
-                <section>
+                <section aria-label="Inverted">
                     <h2>Inverted</h2>
                 </section>
 
 <!-- Inverted example 1 -->
                 <section
+                    aria-hidden="Inverted example, normal mode"
                     data-background-image="lib/img/invert-1.png"
                     data-background-size="contain">
                 </section>
 
 <!-- Inverted example 2 -->
                 <section
+                    aria-hidden="Inverted example, inverted"
                     data-background-image="lib/img/invert-2.png"
                     data-background-size="contain">
                 </section>
 
 <!-- Inverted code -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-hidden="Inverted example, inverting inverted images with CSS">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Invert inverted images */
                         @media (inverted-colors) {
@@ -1543,17 +1554,18 @@
 
 <!-- Inverted example 3 -->
                 <section
+                    aria-hidden="Inverted example, Inverted example, inverted with better-looking pictured"
                     data-background-image="lib/img/invert-3.png"
                     data-background-size="contain">
                 </section>
 
 <!-- Light Level -->
-                <section>
+                <section aria-hidden="Light level">
                     <h2>Light Level</h2>
                 </section>
 
 <!-- Light level code -->
-                <section data-background-color="#000000">
+                <section data-background-color="#000000" aria-hidden="CSS example">
                     <pre><code class="code-block" data-trim data-noescape>
                         /* Boost contrast between elements */
                         @media (light-level: <span class="mark">washed</span>) {
@@ -1570,24 +1582,24 @@
                 </section>
 
 <!-- Fake Extension -->
-                <section>
+                <section aria-hidden="Fake Chrome extension">
                     <img
                         alt="A fake Chrome extension demonstrating how extensions could be used to trigger a washed media query."
                         src="lib/img/washed-mode-sim.png" />
                 </section>
 
-<!-- How it works -->
-                <section>
+<!-- How to do it? -->
+                <section aria-hidden="How to do it?">
                     <h2>How to do it?</h2>
                 </section>
 
 <!-- Testing -->
-                <section>
+                <section aria-label="Testing">
                     <h2 class="biggo">Testing!</h2>
                 </section>
 
 <!-- Testing, testing, texting -->
-                <section>
+                <section aria-label="Test some more">
                     <h1>Testing!</h1>
                     <h1>Testing!</h1>
                     <h1>Testing!</h1>
@@ -1602,7 +1614,7 @@
                 </section>
 
 <!-- Thanks -->
-                <section>
+                <section aria-label="Thank you">
                     <h2 class="biggo">Thank you</h2>
                     <ul>
                         <li><a href="mailto:eric.w.bailey@gmail.com">eric.w.bailey@gmail.com</a></li>
@@ -1621,12 +1633,12 @@
                 </section>
 
 <!-- References -->
-                <section>
+                <section aria-label="References">
                     <h2>References</h2>
                 </section>
 
 <!-- References 1 -->
-                <section>
+                <section aria-label="References list, screen 1 of 2">
                     <ul>
                         <li><a href="https://blogs.windows.com/msedgedev/2016/04/20/building-a-more-accessible-web-platform/">Building a more accessible web platform - Microsoft Edge DevBlog</a></li>
                         <li><a href="http://www.gwhitworth.com/blog/2017/04/how-to-use-ms-high-contrast">Greg Whitworth - How to use -ms-high-contrast</a></li>
@@ -1636,7 +1648,7 @@
                 </section>
 
 <!-- References 2 -->
-                <section>
+                <section aria-label="References list, screen 2 of 2">
                     <ul>
                         <li><a href="http://terrillthompson.com/blog/182">Windows High Contrast and Background Images | Terrill Thompson</a></li>
                         <li><a href="https://css-tricks.com/accessible-svgs-high-contrast-mode/">Accessible SVGs in High Contrast Mode | CSS-Tricks</a></li>
@@ -1646,13 +1658,13 @@
                     </ul>
                 </section>
 
-<!-- References -->
-                <section>
+<!-- Resources -->
+                <section aria-label="Resources">
                     <h2>Resources</h2>
                 </section>
 
 <!-- References 1 -->
-                <section>
+                <section aria-label="Resources list">
                     <ul>
                         <li><a href="https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode">Use high contrast mode - Windows Help</a></li>
                         <li><a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">Free Virtual Machines from IE8 to MS Edge - Microsoft Edge Development</a></li>
