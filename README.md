@@ -8,6 +8,15 @@ Accessibility is more than just making things work in a screen reader. This talk
 
 This presentation was built with [reveal.js](http://lab.hakim.se/reveal-js/#/), a library that allows you to create slide decks using HTML, CSS, and JavaScript.
 
+
+## Formats
+This slide deck may be 
+
+1. Viewed on [SlideShare](https://www.slideshare.net/EricBailey39/working-with-high-contrast-mode/EricBailey39/working-with-high-contrast-mode)
+1. Viewed [live via RawGit](https://rawgit.com/ericwbailey/working-with-high-contrast-mode-talk/master/index.html)
+1. Viewed [locally on your computer](#installing)
+
+
 ## Installing
 
 ### Prerequisites
