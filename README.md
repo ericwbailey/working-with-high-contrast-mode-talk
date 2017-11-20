@@ -10,7 +10,7 @@ This presentation was built with [reveal.js](http://lab.hakim.se/reveal-js/#/), 
 
 
 ## Formats
-This slide deck may be 
+This slide deck may be:
 
 1. Viewed on [SlideShare](https://www.slideshare.net/EricBailey39/working-with-high-contrast-mode/EricBailey39/working-with-high-contrast-mode)
 1. Viewed [live via RawGit](https://rawgit.com/ericwbailey/working-with-high-contrast-mode-talk/master/index.html)
