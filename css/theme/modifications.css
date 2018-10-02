@@ -196,6 +196,7 @@ body {
 
 .bad-example label .sample-input,
 .example label .sample-input {
+  display: block;
   font-size: 0.7em;
   font-weight: normal;
 }

@@ -34,16 +34,17 @@
                 <section data-background-color="#000000" aria-label="Title slide">
                     <img
                         alt="Working with High Contrast Mode. #a11yTOCamp. November 18, 2017"
-                        style="width: 80vw;"
-                        src="lib/img/title.svg" />
+                        style="width: 80vw; background: none;"
+                        src="lib/img/title-id24.svg" />
                 </section>
 
 <!-- About -->
                 <section aria-label="About me">
                     <h2 class="heading-secondary">Hi there!</h2>
 					<ul>
-						<li>UX Designer at Cantina in Boston, MA</li>
+						<li>Designer at thoughtbot in Boston, MA</li>
                         <li>Occasional author at CSS-Tricks</li>
+                        <li>MDN contributor</li>
                         <li>Janitor at the The A11Y Project</li>
 					</ul>
 
@@ -958,8 +959,8 @@
                     <div class="bad-example">
                         <label for="example-1">
                             Your name
-                            <input id="example-1" type="text" />
                             <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input id="example-1" type="text" />
                         </label>
                     </div>
 
@@ -983,8 +984,8 @@
                     <div class="bad-example">
                         <label for="example-1">
                             Your name
-                            <input id="example-1" type="text" />
                             <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input id="example-1" type="text" />
                         </label>
                     </div>
                 </section>
@@ -1003,8 +1004,8 @@
                     <div class="example">
                         <label for="example-1">
                             Your name
-                            <input id="example-1" type="text" />
                             <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input id="example-1" type="text" />
                         </label>
                     </div>
 
@@ -1033,8 +1034,8 @@
                     <div class="example">
                         <label for="example-1">
                             Your name
-                            <input id="example-1" type="text" />
                             <span class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input id="example-1" type="text" />
                         </label>
                     </div>
 
@@ -1549,6 +1550,35 @@
                     <img style="margin-top: 0.25em;" src="lib/img/magic.svg" />
                 </section>
 
+
+<!-- Remove from HCM -->
+                <section data-background-color="#000000" aria-label="Remove from HCM">
+                    <h2 class="visuallyhidden">CSS that removes content from High Contrast Mode</h2>
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Remove from High Contrast Mode, but maintain layout */
+                        @media (-ms-high-contrast: active) {
+                            .hcm-remove {
+                                visibility: hidden;
+                            }
+                        }
+                    </code></pre>
+
+                </section>
+
+<!-- Force HCM display -->
+            <section data-background-color="#000000" aria-label="Force HCM display">
+                    <h2 class="visuallyhidden">CSS that forces content to display as text in High Contrast Mode</h2>
+                    <pre><code class="code-block" data-trim data-noescape>
+                        /* Force content to display as text in High Contrast Mode */
+                        @media (-ms-high-contrast: active) {
+                            .hcm-display-as-text {
+                                color: windowText;
+                            }
+                        }
+                    </code></pre>
+
+                </section>
+
 <!-- Transparent tweet -->
                 <section
                     aria-label="Tweet by Joseph Watkins"
@@ -1597,23 +1627,6 @@
                         <h3>Notes</h3>
                         <ul>
                             <li>CSS Media Queries Level 5 spec</li>
-                        </ul>
-                    </aside>
-                </section>
-
-<!-- Inspirational quote -->
-                <section aria-label="Responsive Design and Inclusive Design">
-                    <h3 class="heading-tertiary" style="margin-bottom: 1.25em;">Responsive Design is adapting design to an unknown browser.</h3>
-                    <h3 class="heading-tertiary">Inclusive Design is adapting design to an unknown user.</h3>
-
-                    <aside class="notes">
-                        <h3>Notes</h3>
-                        <ul>
-
-                        </ul>
-                        <ul>
-                            <li>In a way, HCM was ahead of the curve</li>
-                            <li>More featue queries on the horizon</li>
                         </ul>
                     </aside>
                 </section>
