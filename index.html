@@ -959,8 +959,8 @@
                     <div class="bad-example">
                         <label for="example-1">
                             Your name
-                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
-                            <input id="example-1" type="text" />
+                            <span id="example-1-placeholder" class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input aria-describedby="example-1-placeholder" id="example-1" type="text" />
                         </label>
                     </div>
 
@@ -984,8 +984,8 @@
                     <div class="bad-example">
                         <label for="example-1">
                             Your name
-                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
-                            <input id="example-1" type="text" />
+                            <span id="example-2-placeholder" class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input aria-describedby="example-2-placeholder" id="example-2" type="text" />
                         </label>
                     </div>
                 </section>
@@ -1004,8 +1004,8 @@
                     <div class="example">
                         <label for="example-1">
                             Your name
-                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
-                            <input id="example-1" type="text" />
+                            <span id="example-3-placeholder" class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input aria-describedby="example-2-placeholder" id="example-1" type="text" />
                         </label>
                     </div>
 
@@ -1034,8 +1034,8 @@
                     <div class="example">
                         <label for="example-1">
                             Your name
-                            <span class="sample-input">Example: John, Priyanka, 张伟</span>
-                            <input id="example-1" type="text" />
+                            <span id="example-4-placeholder" class="sample-input">Example: John, Priyanka, 张伟</span>
+                            <input aria-describedby="example-4-placeholder" id="example-1" type="text" />
                         </label>
                     </div>
 
@@ -1732,6 +1732,79 @@
                     </aside>
                 </section>
 
+<!-- Where to do it? -->
+                <section aria-label="Where to do it?">
+                    <h2 class="heading-secondary">Where to do it?</h2>
+                </section>
+
+<!-- Early in your process -->
+                <section aria-label="Early in your process">
+                    <h2 class="heading-secondary">Early in your process</h2>
+                </section>
+
+<!-- Late in your process -->
+                <section aria-label="Late in your process">
+                    <h2 class="heading-secondary">Late in your process</h2>
+                </section>
+
+<!-- Shift left 1 -->
+                <section aria-label="Shift left 1">
+                    <img
+                        alt="Shift left"
+                        style="background: none;"
+                        src="lib/img/shift-left-1.svg" />
+                </section>
+
+<!-- Shift left 2 -->
+                <section aria-label="Shift left 2">
+                    <img
+                        alt="Shift left"
+                        style="background: none;"
+                        src="lib/img/shift-left-2.svg" />
+                </section>
+
+<!-- Shift left 3 -->
+                <section aria-label="Shift left 3">
+                    <img
+                        alt="Shift left"
+                        style="background: none;"
+                        src="lib/img/shift-left-3.svg" />
+                </section>
+
+<!-- I don't have a Windows computer -->
+                <section aria-label="I don't have a Windows computer">
+                    <p style="font-size: 6rem;">&ldquo;But I don't have <br />a Windows computer!&rdquo;</p>
+                </section>
+
+<!-- How to do it? -->
+                <section aria-label="VirtualBox">
+                    <img
+                        alt="VirtualBox logo"
+                        style="width: 20vw; background: none;"
+                        src="lib/img/logo-virtualbox.png" />
+                    <p>
+                        Free Virtual Machines from IE8 to MS Edge<br />
+                        <a style="font-size: 1.75rem;" href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/</a>
+                    </p>
+                </section>
+
+<!-- Amazon Workspaces -->
+                <section aria-label="Amazon Workspaces">
+                        <img
+                            alt="VirtualBox logo"
+                            style="width: 17vw; background: none;"
+                            src="lib/img/logo-workspaces.png" />
+                        <p>
+                            Amazon WorkSpaces - Amazon AWS<br />
+                            <a style="font-size: 1.75rem;" href="https://aws.amazon.com/workspaces/">https://aws.amazon.com/workspaces/</a>
+                        </p>
+                    </section>
+
+<!-- Good UX -->
+                <section aria-label="Test some more">
+                    <h2 style="font-size: 5.5rem;" class="heading-secondary">Good user experiences meet the user where they are, not where we hope they’ll be.</h2>
+                </section>
+
 <!-- Thanks -->
                 <section aria-label="Thank you">
                     <h2 class="heading-ultra">Thank you</h2>
@@ -1778,7 +1851,8 @@
                         <li><a href="https://css-tricks.com/accessible-svgs-high-contrast-mode/">Accessible SVGs in High Contrast Mode | CSS-Tricks</a></li>
                         <li><a href="https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-websites/">How users change colours on websites - Gov.UK</a></li>
                         <li><a href="https://drafts.csswg.org/mediaqueries-5/">Media Queries Level 5 - W3C Editor's Draft</a></li>
-						<li><a href="https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939">Writing CSS with Accessibility in Mind - Medium</a></li>
+                        <li><a href="https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939">Writing CSS with Accessibility in Mind - Medium</a></li>
+                        <li><a href="https://www.deque.com/blog/design-code-thinking-accessibility-ground/">Shift Left for Inclusive Design: UX & Web A11y | Deque</a></li>
                     </ul>
                 </section>
 
