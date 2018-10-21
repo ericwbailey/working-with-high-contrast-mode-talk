@@ -1,6 +1,6 @@
 # Working with High Contrast Mode
 
-Presented for [Accessibility Camp Toronto](http://www.accessibilitycampto.org/) on November 18, 2017.
+Presented for [Accessibility Camp Toronto](http://www.accessibilitycampto.org/) on November 18, 2017 and [ID24](https://inclusivedesign24.org/2018/schedule/#talk21) on October 11, 2018.
 
 
 ## About
@@ -12,9 +12,8 @@ This presentation was built with [reveal.js](http://lab.hakim.se/reveal-js/#/), 
 ## Formats
 This slide deck may be:
 
-1. Viewed on [SlideShare](https://www.slideshare.net/EricBailey39/working-with-high-contrast-mode/EricBailey39/working-with-high-contrast-mode)
-1. Viewed [live via RawGit](https://rawgit.com/ericwbailey/working-with-high-contrast-mode-talk/master/index.html)
-1. Viewed [locally on your computer](#installing)
+1. Viewed on [Notist](https://noti.st/ericwbailey/3HM9en/working-with-high-contrast-mode).
+1. Viewed [locally on your computer](#installing).
 
 
 ## Installing
