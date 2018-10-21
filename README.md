@@ -13,6 +13,7 @@ This presentation was built with [reveal.js](http://lab.hakim.se/reveal-js/#/), 
 This slide deck may be:
 
 1. Viewed on [Notist](https://noti.st/ericwbailey/3HM9en/working-with-high-contrast-mode).
+2. Viewed on [GitHub Pages](https://ericwbailey.github.io/working-with-high-contrast-mode-talk/index.html#/).
 1. Viewed [locally on your computer](#installing).
 
 
